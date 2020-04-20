@@ -496,7 +496,9 @@ section
 }
 .home_content
 {
-	max-width: 870px;
+	/*max-width: 870px;*/
+	padding-top: 50px;
+	text-align: center;
 }
 .home_date
 {
@@ -849,6 +851,7 @@ section
 .intro_image img
 {
 	max-width: 100%;
+	border-radius: 10px;
 }
 .intro_body
 {

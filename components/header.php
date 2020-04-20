@@ -29,7 +29,7 @@
 						<div class="logo_image"><div><img src="images/logo.png" alt=""></div></div>
 						<div class="logo_content">
 							<div class="logo_text logo_text_not_ie">Dreamers Gang</div>
-							<div class="logo_sub">August 2020 - Akwa-Ibom</div>
+							<div class="logo_sub">August 2020 - Port Harcourt</div>
 						</div>
 					</div>
 				</a>
@@ -37,8 +37,9 @@
 			<ul>
 				<li class="menu_item"><a href="\">Home</a></li>
 				<li class="menu_item"><a href="#">About us</a></li>
-				<li class="menu_item"><a href="#">Contestants</a></li>
-                <li class="menu_item"><a href="contact">Contact</a></li>
+                <li class="menu_item"><a href="#">Contestants</a></li>
+                <li class="menu_item"><a href="#">Latest news</a></li>
+                <li class="menu_item"><a href="contact">Contact us</a></li>
                 <li class="menu_item"><a href="register">Register Now</a></li>
 			</ul>
 		</div>
@@ -73,7 +74,7 @@
 												<div class="logo_image"><div><img src="images/logo.png" alt=""></div></div>
 												<div class="logo_content">
 													<div id="logo_text" class="logo_text logo_text_not_ie">Dreamers Gang</div>
-													<div class="logo_sub">August 2020 - Akwa-Ibom</div>
+													<div class="logo_sub">August 2020 - Port Harcourt</div>
 												</div>
 											</div>
 										</a>	
@@ -102,8 +103,8 @@
 												<ul>
 													<li class="active"><a href="\">Home</a></li>
 													<li><a href="#">About Us</a></li>
-													<li><a href="speakers.html">Contestants</a></li>
-													<li><a href="events.html">Events</a></li>
+													<li><a href="#">Contestants</a></li>
+													<li><a href="#">Latest news</a></li>
 													<li><a href="contact">Contact us</a></li>
 												</ul>
 											</nav>

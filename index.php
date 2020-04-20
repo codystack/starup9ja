@@ -5,13 +5,12 @@
 				<div class="row">
 					<div class="col">
 						<div class="home_content">
-							<div class="home_date">August 25, 2018</div>
-							<div class="home_title">2018 Public Policy Conference</div>
-							<div class="home_location">Miami Marina Bay, FL</div>
-							<div class="home_text">Donec quis metus ac arcu luctus accumsan. Nunc in justo tincidunt, sodales nunc id, finibus nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</div>
+							<div class="home_date">August 2020</div>
+							<div class="home_title">Make your way to stardom</div>
+							<div class="home_location">Port Harcourt</div>
+							<div class="home_text">Take a wlak through the hall of fame.</div>
 							<div class="home_buttons">
-								<div class="button home_button"><a href="#">Buy Tickets Now!</a></div>
-								<div class="button home_button"><a href="#">Find out more</a></div>
+								<div class="button home_button"><a href="register">Register Now!</a></div>
 							</div>
 						</div>
 					</div>
@@ -22,67 +21,9 @@
 
 	<!-- Intro -->
 
-	<div class="intro">
-		<div class="intro_content d-flex flex-row flex-wrap align-items-start justify-content-between">
+	<?php require_once('./components/card.php');?>
 
-			<!-- Intro Item -->
-			<div class="intro_item">
-				<div class="intro_image"><img src="images/intro_1.jpg" alt=""></div>
-				<div class="intro_body">
-					<div class="intro_title"><a href="#">Conference Program</a></div>
-					<div class="intro_subtitle">Donec quis metus ac arcu luctus accumsan.</div>
-				</div>
-			</div>
-
-			<!-- Intro Item -->
-			<div class="intro_item">
-				<div class="intro_image"><img src="images/intro_2.jpg" alt=""></div>
-				<div class="intro_body">
-					<div class="intro_title"><a href="#">Supersessions</a></div>
-					<div class="intro_subtitle">Donec quis metus ac arcu luctus accumsan.</div>
-				</div>
-			</div>
-
-			<!-- Intro Item -->
-			<div class="intro_item">
-				<div class="intro_image"><img src="images/intro_3.jpg" alt=""></div>
-				<div class="intro_body">
-					<div class="intro_title"><a href="#">The Speakers</a></div>
-					<div class="intro_subtitle">Donec quis metus ac arcu luctus accumsan.</div>
-				</div>
-			</div>
-
-			<!-- Intro Item -->
-			<div class="intro_item">
-				<div class="intro_image"><img src="images/intro_4.jpg" alt=""></div>
-				<div class="intro_body">
-					<div class="intro_title"><a href="#">Explore Sessions</a></div>
-					<div class="intro_subtitle">Donec quis metus ac arcu luctus accumsan.</div>
-				</div>
-			</div>
-
-			<!-- Intro Item -->
-			<div class="intro_item">
-				<div class="intro_image"><img src="images/intro_5.jpg" alt=""></div>
-				<div class="intro_body">
-					<div class="intro_title"><a href="#">Directory</a></div>
-					<div class="intro_subtitle">Donec quis metus ac arcu luctus accumsan.</div>
-				</div>
-			</div>
-
-			<!-- Intro Item -->
-			<div class="intro_item">
-				<div class="intro_image"><img src="images/intro_6.jpg" alt=""></div>
-				<div class="intro_body">
-					<div class="intro_title"><a href="#">Speakers Schedule</a></div>
-					<div class="intro_subtitle">Donec quis metus ac arcu luctus accumsan.</div>
-				</div>
-			</div>
-
-		</div>
-	</div>
-
-	<!-- Pricing -->
+	<!--
 
 	<div class="pricing">
 		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/pricing.jpg" data-speed="0.8"></div>
@@ -94,7 +35,7 @@
 			</div>
 			<div class="row pricing_row">
 				
-				<!-- Pricing Item -->
+				
 				<div class="col-lg-4 pricing_col">
 					<div class="pricing_item">
 						<div class="pricing_item_content">
@@ -115,7 +56,7 @@
 					</div>
 				</div>
 
-				<!-- Pricing Item -->
+				
 				<div class="col-lg-4 pricing_col">
 					<div class="pricing_item pricing_item_mid">
 						<div class="pricing_item_content">
@@ -136,7 +77,7 @@
 					</div>
 				</div>
 
-				<!-- Pricing Item -->
+				
 				<div class="col-lg-4 pricing_col">
 					<div class="pricing_item">
 						<div class="pricing_item_content">
@@ -160,7 +101,7 @@
 		</div>
 	</div>
 
-	<!-- Calendar -->
+
 
 	<div class="calendar">
 		<div class="container reset_container">
@@ -173,7 +114,7 @@
 						</div>
 						<div class="calendar_items">
 							
-							<!-- Calendar Item -->
+							
 							<div class="calendar_item d-flex flex-row align-items-center justify-content-start">
 								<div><div class="calendar_item_image"><img src="images/event_1.jpg" alt=""></div></div>
 								<div class="calendar_item_time">
@@ -187,7 +128,7 @@
 								</div>
 							</div>
 
-							<!-- Calendar Item -->
+							
 							<div class="calendar_item d-flex flex-row align-items-center justify-content-start">
 								<div><div class="calendar_item_image"><img src="images/event_2.jpg" alt=""></div></div>
 								<div class="calendar_item_time">
@@ -201,7 +142,7 @@
 								</div>
 							</div>
 
-							<!-- Calendar Item -->
+							
 							<div class="calendar_item d-flex flex-row align-items-center justify-content-start">
 								<div><div class="calendar_item_image"><img src="images/event_3.jpg" alt=""></div></div>
 								<div class="calendar_item_time">
@@ -215,7 +156,7 @@
 								</div>
 							</div>
 
-							<!-- Calendar Item -->
+							
 							<div class="calendar_item d-flex flex-row align-items-center justify-content-start">
 								<div><div class="calendar_item_image"><img src="images/event_4.jpg" alt=""></div></div>
 								<div class="calendar_item_time">
@@ -241,7 +182,7 @@
 						</div>
 						<div class="calendar_items">
 							
-							<!-- Calendar Item -->
+							
 							<div class="calendar_item d-flex flex-row align-items-center justify-content-start">
 								<div><div class="calendar_item_image"><img src="images/event_5.jpg" alt=""></div></div>
 								<div class="calendar_item_time">
@@ -255,7 +196,7 @@
 								</div>
 							</div>
 
-							<!-- Calendar Item -->
+							
 							<div class="calendar_item d-flex flex-row align-items-center justify-content-start">
 								<div><div class="calendar_item_image"><img src="images/event_6.jpg" alt=""></div></div>
 								<div class="calendar_item_time">
@@ -269,7 +210,7 @@
 								</div>
 							</div>
 
-							<!-- Calendar Item -->
+							
 							<div class="calendar_item d-flex flex-row align-items-center justify-content-start">
 								<div><div class="calendar_item_image"><img src="images/event_7.jpg" alt=""></div></div>
 								<div class="calendar_item_time">
@@ -283,7 +224,7 @@
 								</div>
 							</div>
 
-							<!-- Calendar Item -->
+							
 							<div class="calendar_item d-flex flex-row align-items-center justify-content-start">
 								<div><div class="calendar_item_image"><img src="images/event_8.jpg" alt=""></div></div>
 								<div class="calendar_item_time">
@@ -305,7 +246,7 @@
 		</div>
 	</div>
 
-	<!-- Call to action -->
+-->
 
 	<div class="cta">
 		<div class="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/cta_1.jpg" data-speed="0.8"></div>
@@ -313,8 +254,8 @@
 			<div class="row">
 				<div class="col">
 					<div class="cta_content text-center">
-						<div class="cta_title">Get your tickets now!</div>
-						<div class="button cta_button"><a href="#">Find out more</a></div>
+						<div class="cta_title">Make your way to stardom</div>
+						<div class="button cta_button"><a href="register">REGISTER NOW!</a></div>
 					</div>
 				</div>
 			</div>
