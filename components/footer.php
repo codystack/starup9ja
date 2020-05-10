@@ -18,22 +18,22 @@
                             <div class="socail_links">
                                 <ul>
                                     <li>
-                                        <a href="#">
+                                        <a href="https://web.facebook.com/DREAMERSGANG/">
                                             <i class="ti-facebook"></i>
                                         </a>
                                     </li>
-                                    <li>
+                                    <!--<li>
                                         <a href="#">
                                             <i class="fa fa-google-plus"></i>
                                         </a>
-                                    </li>
+                                    </li>-->
                                     <li>
-                                        <a href="#">
+                                        <a href="https://twitter.com/dreamers_gang">
                                             <i class="fa fa-twitter"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="#">
+                                        <a href="https://www.instagram.com/dreamersgang_dg/">
                                             <i class="fa fa-instagram"></i>
                                         </a>
                                     </li>
@@ -45,13 +45,13 @@
                     <div class="col-xl-2 col-md-6 col-lg-3">
                         <div class="footer_widget wow fadeInUp" data-wow-duration="1.1s" data-wow-delay=".4s">
                             <h3 class="footer_title">
-                                Services
+                                Quick Links
                             </h3>
                             <ul>
-                                <li><a href="#">SEO/SEM </a></li>
-                                <li><a href="#">Web design </a></li>
-                                <li><a href="#">Ecommerce</a></li>
-                                <li><a href="#">Digital marketing</a></li>
+                                <li><a href="register">Register </a></li>
+                                <li><a href="contestants">Contestants </a></li>
+                                <li><a href="faq">FAQ's</a></li>
+                                <li><a href="#">Talents</a></li>
                             </ul>
 
                         </div>
@@ -62,10 +62,10 @@
                                 Useful Links
                             </h3>
                             <ul>
-                                <li><a href="#">About</a></li>
+                                <li><a href="\">Home</a></li>
+                                <li><a href="about">About</a></li>
                                 <li><a href="#">Blog</a></li>
-                                <li><a href="#"> Contact</a></li>
-                                <li><a href="#">Support</a></li>
+                                <li><a href="contact">Contact us</a></li>
                             </ul>
                         </div>
                     </div>

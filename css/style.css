@@ -870,7 +870,7 @@ h3 {
   top: 5px;
   padding: 5px;
   right: 0;
-  margin-top: -5px;
+  margin-top: -30px;
   top: -33px;
 }
 
@@ -2260,7 +2260,7 @@ h3 {
 
 /* line 3, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
 .accordion_area.extra_padding {
-  margin-top: 150px;
+  margin-top: 10px;
 }
 
 @media (max-width: 767px) {
@@ -2360,8 +2360,8 @@ h3 {
 
 /* line 55, ../../Arafath/CL/December/234. Finance/HTML/scss/_accordion_area.scss */
 .accordion_area .faq_ask {
-  padding-top: 130px;
-  padding-bottom: 130px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 @media (max-width: 767px) {
@@ -2818,7 +2818,7 @@ p #amount {
 /* line 10, ../../Arafath/CL/December/234. Finance/HTML/scss/_footer.scss */
 .footer .footer_top {
   padding-top: 145px;
-  padding-bottom: 129px;
+  padding-bottom: 25px;
 }
 
 @media (max-width: 767px) {
@@ -3360,6 +3360,28 @@ p #amount {
   padding-top: 150px;
   padding-bottom: 120px;
 }
+
+.faq_area {
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  /* line 1, ../../Arafath/CL/December/234. Finance/HTML/scss/_service.scss */
+  .faq_area {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 1, ../../Arafath/CL/December/234. Finance/HTML/scss/_service.scss */
+  .faq_area {
+    padding-top: 100px;
+    padding-bottom: 70px;
+  }
+}
+
 
 @media (max-width: 767px) {
   /* line 1, ../../Arafath/CL/December/234. Finance/HTML/scss/_service.scss */

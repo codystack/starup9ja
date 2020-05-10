@@ -51,8 +51,8 @@
                                         <ul id="navigation">
                                             <li><a href="\">Home</a></li>
                                             <li><a href="about">About</a></li>
-                                            <li><a href="talents">Talents</a></li>
-                                            <li><a href="contestants">Contestants</a></li>
+                                            <!--<li><a href="talents">Talents</a></li>-->
+                                            <li><a href="#">Contestants</a></li>
                                             <!--
                                             <li><a href="#">pages <i class="ti-angle-down"></i></a>
                                                 <ul class="submenu">
