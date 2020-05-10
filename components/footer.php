@@ -6,13 +6,13 @@
                     <div class="col-xl-4 col-md-6 col-lg-3">
                         <div class="footer_widget wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
                             <div class="footer_logo">
-                                <a href="#">
-                                    <img src="img/footer_logo.png" alt="">
+                                <a href="\">
+                                    <img src="https://i.imgur.com/1vgaXgx.png" alt="" style="height: 100px;">
                                 </a>
                             </div>
                             <p>
-                                finloan@support.com <br>
-                                +10 873 672 6782 <br>
+                                info@dreamersgang.com <br>
+                                +234 7082486557 <br>
                                 600/D, Green road, NewYork
                             </p>
                             <div class="socail_links">

@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="https://i.imgur.com/PecHXd0.png">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
@@ -41,7 +41,7 @@
                             <div class="col-xl-3 col-lg-2">
                                 <div class="logo">
                                     <a href="\">
-                                        <img src="img/logo.png" alt="">
+                                        <img src="https://i.imgur.com/9zRClLc.png" alt="" style="height: 100px;">
                                     </a>
                                 </div>
                             </div>
@@ -69,7 +69,7 @@
                             <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                                 <div class="Appointment">
                                     <div class="phone_num d-none d-xl-block">
-                                        <a href="+2348136403606"> <i class="fa fa-phone"></i> +2348136403606</a>
+                                        <a href="+2347082486557"> <i class="fa fa-phone"></i> +2347082486557</a>
                                     </div>
                                     <div class="d-none d-lg-block">
                                         <a class="boxed-btn4" href="register">Register Now</a>
