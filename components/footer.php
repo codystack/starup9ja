@@ -13,7 +13,7 @@
                             <p>
                                 info@dreamersgang.com <br>
                                 +234 7082486557 <br>
-                                600/D, Green road, NewYork
+                                Port Harcourt, Rivers State.
                             </p>
                             <div class="socail_links">
                                 <ul>
@@ -49,7 +49,7 @@
                             </h3>
                             <ul>
                                 <li><a href="register">Register </a></li>
-                                <li><a href="contestants">Contestants </a></li>
+                                <li><a href="#">Contestants </a></li>
                                 <li><a href="faq">FAQ's</a></li>
                                 <li><a href="#">Talents</a></li>
                             </ul>
