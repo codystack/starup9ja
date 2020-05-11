@@ -1388,7 +1388,7 @@ h3 {
 
 /* line 20, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
 .slider_area .single_slider {
-  height: 900px;
+  height: 600px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -3637,7 +3637,6 @@ p #amount {
 /* line 12, ../../Arafath/CL/December/234. Finance/HTML/scss/_brand.scss */
 .brad_area .owl-carousel .owl-item img {
   display: inline-block;
-  width: auto;
 }
 
 @media (max-width: 767px) {

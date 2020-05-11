@@ -14,41 +14,9 @@
                         </div>
                     </div>
                     <div class="col-lg-5 col-md-6">
-                        <div class="payment_form white-bg wow fadeInDown" data-wow-duration="1.2s" data-wow-delay=".2s">
-                            <div class="info text-center">
-                                <h4>How much do you want?</h4>
-                                <p>We provide online instant cash loans with quick</p>
-                            </div>
-                            <div class="form">
-                                <div class="row">
-                                    <div class="col-lg-12">
-                                        <div class="single_input">
-                                            <select class="wide">
-                                                <option data-display="Amount">Amount</option>
-                                                <option value="1">$10</option>
-                                                <option value="2">$40</option>
-                                                <option value="3">$50</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-12">
-                                        <div class="single_input">
-                                            <select class="wide">
-                                                <option data-display="Month">Month</option>
-                                                <option value="1">3 Month</option>
-                                                <option value="2">6 Month</option>
-                                                <option value="3">9 Month</option>
-                                                <option value="4">12 Month</option>
-                                            </select>
-                                         </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <p>You have to pay: <span>$0</span></p>
-                            <div class="submit_btn">
-                                <button class="boxed-btn3" type="submit">Continue</button>
-                            </div>
-                        </div>
+                    <div class="embed-responsive embed-responsive-16by9 vidclass">
+                    <iframe class="embed-responsive-item" src="img/vid.mp4" allowfullscreen></iframe>
+                    </div>
                     </div>
                 </div>
             </div>
@@ -146,38 +114,7 @@
     </div>
     <!-- service_area_end  -->
     
-    <!-- about_area_start  -->
-    <div class="about_area">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-md-6">
-                    <div class="about_img wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">
-                        <img src="img/about/about.png" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="about_info pl-68">
-                        <div class="section_title wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".3s">
-                            <h3>Why Choose Us?</h3>
-                        </div>
-                        <p class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".4s">Esteem spirit temper too say adieus who direct esteem.It esteems luckily or picture placing drawing. Apartments frequently or motionless on reasonable.</p>
-                        <div class="about_list">
-                            <ul>
-                                <li class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">Loans with quick approval.</li>
-                                <li class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".6s">Customize a loan based on the amount.</li>
-                                <li class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".7s">Good credit profile and you have built your loan.</li class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".8s">
-                                <li class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".9s">We provide online instant cash loans.</li>
-                            </ul>
-                        </div>
-                        <div class="about_btn wow fadeInRight" data-wow-duration="1.3s" data-wow-delay=".5s">
-                            <a class="boxed-btn3" href="apply.html">About Us</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- about_area_end  -->
+<?php require('./components/aboutarea.php');?>
 
     <div class="works_area">
         <div class="container">
@@ -293,98 +230,9 @@
         </div>
     </div>
 
-    <!-- testimonial_area  -->
-    <div class="testimonial_area  ">
-        <div class="container">
-            <div class="row">
-                <div class="col-xl-12">
-                    <div class="testmonial_active owl-carousel">
-                        <div class="single_carousel">
-                            <div class="row">
-                                <div class="col-lg-11">
-                                    <div class="single_testmonial d-flex align-items-center">
-                                        <div class="thumb">
-                                            <img src="img/testmonial/author.png" alt="">
-                                            <div class="quote_icon">
-                                                <i class="Flaticon flaticon-quote"></i>
-                                            </div>
-                                        </div>
-                                        <div class="info">
-                                            <p>"Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering through animal welfare when people might depend on livestock as their only source of income or food.</p>
-                                            <span>- Micky Mouse</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single_carousel">
-                            <div class="row">
-                                <div class="col-lg-11">
-                                    <div class="single_testmonial d-flex align-items-center">
-                                        <div class="thumb">
-                                            <img src="img/testmonial/author.png" alt="">
-                                            <div class="quote_icon">
-                                                <i class=" Flaticon flaticon-quote"></i>
-                                            </div>
-                                        </div>
-                                        <div class="info">
-                                            <p>"Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering through animal welfare when people might depend on livestock as their only source of income or food.</p>
-                                            <span>- Micky Mouse</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="single_carousel">
-                            <div class="row">
-                                <div class="col-lg-11">
-                                    <div class="single_testmonial d-flex align-items-center">
-                                        <div class="thumb">
-                                            <img src="img/testmonial/author.png" alt="">
-                                            <div class="quote_icon">
-                                                <i class="Flaticon flaticon-quote"></i>
-                                            </div>
-                                        </div>
-                                        <div class="info">
-                                            <p>"Working in conjunction with humanitarian aid agencies, we have supported programmes to help alleviate human suffering through animal welfare when people might depend on livestock as their only source of income or food.</p>
-                                            <span>- Micky Mouse</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /testimonial_area  -->
+<?php require('./components/testimonials.php');?>
 
-    <div class="brad_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="brad_active owl-carousel">
-                        <div class="single_brand wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
-                            <img src="img/brand/1.png" alt="">
-                        </div>
-                        <div class="single_brand wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                            <img src="img/brand/2.png" alt="">
-                        </div>
-                        <div class="single_brand wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">
-                            <img src="img/brand/3.png" alt="">
-                        </div>
-                        <div class="single_brand wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
-                            <img src="img/brand/4.png" alt="">
-                        </div>
-                        <div class="single_brand wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
-                            <img src="img/brand/5.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+<?php require('./components/logoslide.php');?>
 
 <?php require('./components/footreg.php');?>
 

@@ -15,29 +15,7 @@
     <!--/ bradcam_area  -->
 
     
-    <!-- about_area_start  -->
-    <div class="about_area plus_padding">
-        <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-md-6">
-                    <div class="about_img wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">
-                        <img src="img/about/about.png" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="about_info pl-68">
-                        <div class="section_title wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".3s">
-                            <h3>About Dreamers Gang</h3>
-                        </div>
-                        <p class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".4s">DG is a talent & discovery catalysts  primarily seeks to unearth unpolished gems with the potential to contribute a fresh take from the usual showmanship and business in the entertainment industry.</p>
-                        <p class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".4s">Thus it ultimately spotlights a more inclusive future of a broader range of talents to audience; as it operates on the principle that there is more than one talent, and so much more to making that spotlight .</p>
-                        <p class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".4s">In view of this, the fusion of the various contestants’ talent backgrounds is developed to create new wave without losing their own individuality but a deeper appreciation for variety in the entertainment.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- about_area_end  -->
+<?php require('./components/aboutarea.php');?>
 
     <div class="works_area">
         <div class="container">
