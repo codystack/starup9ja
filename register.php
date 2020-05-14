@@ -50,7 +50,7 @@
                             <div class="col-md-6">
                                 <div class="single_field">
                                     <select class="wide">
-                                        <option data-display="State Of origin">--State Of Origin--</option>
+                                        <option data-display="State Of Origin">--State Of Origin--</option>
                                         <option value="1">Abia</option>
                                         <option value="2">Adamawa</option>
                                         <option value="3">Akwa Ibom</option>
