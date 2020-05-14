@@ -42,13 +42,13 @@
     </div>
     
 <?php require('./components/aboutarea.php');?>
-
+<!--
         <div class="container">
                     <div class="wowt" data-wow-duration="1s" data-wow-delay=".3s">
                         <img src="img/hmeslide.jpg" alt="" class="homeadvert">
                     </div>
         </div>
-
+-->
 <?php require('./components/testimonials.php');?>
 
 <?php require('./components/logoslide.php');?>

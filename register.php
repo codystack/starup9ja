@@ -23,62 +23,115 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="apply_info_text text-center">
-                                    <h3>How much do you want?</h3>
-                                    <p>We provide online instant cash loans with quick approval that suit your term length</p>
+                                    <h3>Dreamers Gang Talent Hunt Registration</h3>
+                                    <p>Please input the correct informations bellow.</p>
                                 </div>
                             </div>
-                            <div class="col-md-12">
+                            <div class="col-md-6">
                                 <div class="single_field">
-                                    <input type="text" placeholder="Your name">
+                                    <input type="text" placeholder="First name">
                                 </div>
                             </div>
-                            <div class="col-md-12">
+                            <div class="col-md-6">
                                 <div class="single_field">
-                                    <input type="text" placeholder="Email">
+                                    <input type="text" placeholder="Last name">
                                 </div>
                             </div>
-                            <div class="col-md-12">
+                            <div class="col-md-6">
                                 <div class="single_field">
-                                    <input type="text" placeholder="Phone no.">
+                                    <input type="email" placeholder="Email">
                                 </div>
                             </div>
-                            <div class="col-md-12">
+                            <div class="col-md-6">
+                                <div class="single_field">
+                                    <input type="tel" placeholder="Phone no.">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
                                 <div class="single_field">
                                     <select class="wide">
-                                        <option data-display="Purpose">Purpose</option>
-                                        <option value="1">Purpose 1</option>
-                                        <option value="2">Purpose 2</option>
+                                        <option data-display="State Of origin">--State Of Origin--</option>
+                                        <option value="1">Abia</option>
+                                        <option value="2">Adamawa</option>
+                                        <option value="3">Akwa Ibom</option>
+                                        <option value="4">Anambra</option>
+                                        <option value="5">Bauchi</option>
+                                        <option value="6">Bayelsa</option>
+                                        <option value="7">Benue</option>
+                                        <option value="8">Borno</option>
+                                        <option value="9">Cross River</option>
+                                        <option value="10">Delta</option>
+                                        <option value="11">Ebonyi</option>
+                                        <option value="12">Edo</option>
+                                        <option value="13">Ekiti</option>
+                                        <option value="14">Enugu</option>
+                                        <option value="15">FCT - Abuja</option>
+                                        <option value="16">Gombe</option>
+                                        <option value="17">Imo</option>
+                                        <option value="18">Jigawa</option>
+                                        <option value="19">Kaduna</option>
+                                        <option value="20">Kano</option>
+                                        <option value="21">Katsina</option>
+                                        <option value="22">Kebbi</option>
+                                        <option value="23">Kogi</option>
+                                        <option value="24">Kwara</option>
+                                        <option value="25">Lagos</option>
+                                        <option value="26">Nasarawa</option>
+                                        <option value="27">Niger</option>
+                                        <option value="28">Ogun</option>
+                                        <option value="29">Ondo</option>
+                                        <option value="30">Osun</option>
+                                        <option value="31">Oyo</option>
+                                        <option value="32">Plateau</option>
+                                        <option value="33">Rivers</option>
+                                        <option value="34">Sokoto</option>
+                                        <option value="35">Taraba</option>
+                                        <option value="36">Yobe</option>
+                                        <option value="37">Zamfara</option>
+                                      </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="single_field">
+                                    <input type="text" placeholder="Address">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="single_field">
+                                    <input type="text" name="" id="datepicker" placeholder="Date Of Birth">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="single_field">
+                                    <select class="wide">
+                                        <option data-display="Age Category">--Select Age Category--</option>
+                                        <option value="1">4-9yrs ₦1,000</option>
+                                        <option value="2">10-15yrs ₦2,000</option>
+                                        <option value="3">16-21yrs ₦3,000</option>
+                                        <option value="4">22-28yrs ₦5,000</option>
                                       </select>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="single_field">
                                     <select class="wide">
-                                        <option data-display="Amount">Amount</option>
-                                        <option value="1">$10</option>
-                                        <option value="2">$20</option>
-                                        <option value="3">$30</option>
+                                        <option data-display="Performance">--Select Performance Category--</option>
+                                        <option value="1">Music</option>
+                                        <option value="2">Dance</option>
+                                        <option value="3">Comedy</option>
+                                        <option value="4">Poetry</option>
+                                        <option value="4">Novelty Act</option>
                                       </select>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="single_field">
-                                    <input type="text" name="" id="datepicker" placeholder="Month">
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="pay_text">
-                                    <p>You have to pay: <span>$0</span></p>
-                                </div>
-                            </div>
-                            <div class="col-md-12">
-                                <div class="single_field">
-                                    <textarea name="#" id="" cols="30" rows="10" placeholder="Message" ></textarea>
+                                    <p>You have to pay: <span>₦0</span></p>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="submit_btn">
-                                    <button class="boxed-btn3" type="submit">Apply Now</button>
+                                    <button class="boxed-btn3" type="submit">Register Now</button>
                                 </div>
                             </div>
                         </div>

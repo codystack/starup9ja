@@ -1441,8 +1441,10 @@ img.homeadvert {
     font-size: 30px;
     margin-bottom: 30px;
     line-height: 45px;
+    margin-top: 150px;
   }
 }
+
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 39, ../../Arafath/CL/December/234. Finance/HTML/scss/_slider.scss */
@@ -1450,7 +1452,6 @@ img.homeadvert {
     font-size: 34px;
     line-height: 1.4;
     margin-bottom: 35px;
-    margin-top: 150px;
   }
 }
 
