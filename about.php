@@ -61,7 +61,7 @@
                 <div class="col-lg-12">
                     <div class="section_title text-center mb-90">
                         <span class="wow lightSpeedIn" data-wow-duration="1s" data-wow-delay=".1s"></span>
-                        <h4 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">Helpful tips to review efore making your online video audition</h4>
+                        <h4 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">Helpful tips to review before making your online video audition</h4>
                         <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Shoot your video in a bright & Nice setting. We want to be able to see you!<br>
                             Do not use auto-tune apps or voice filters.<br>
                             Do not submit a highly edited video or video with highly processed vocals.<br>

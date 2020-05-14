@@ -103,14 +103,14 @@ If you still haven't found an answer, you can write to our support team below, a
                                         </div>
                                     </div>
                                     <div class="card wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".6s">
-                                        <div class="card-header" id="headingThree4">
+                                        <div class="card-header" id="headingThree45">
                                             <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree4" aria-expanded="false" aria-controls="collapseThree4">
+                                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree45" aria-expanded="false" aria-controls="collapseThree4">
                                                     Tips for variety acts
                                                 </button>
                                             </h5>
                                         </div>
-                                        <div id="collapseThree4" class="collapse" aria-labelledby="headingThree4" data-parent="#accordion" style="">
+                                        <div id="collapseThree45" class="collapse" aria-labelledby="headingThree45" data-parent="#accordion" style="">
                                             <div class="card-body">Make sure you plan an act that would work  for you. For online video submitting.
                                                 During live performances, It’s always a good idea to have ideas of what you would perform for future rounds of the show if you are chosen to perform for the  judges. 
                                                 Sometimes the Producers will ask you what you have in store for the future and it's better to be prepared.
@@ -118,14 +118,14 @@ If you still haven't found an answer, you can write to our support team below, a
                                         </div>
                                     </div>
                                     <div class="card wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".6s">
-                                        <div class="card-header" id="headingThree4">
+                                        <div class="card-header" id="headingThree44">
                                             <h5 class="mb-0">
-                                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree4" aria-expanded="false" aria-controls="collapseThree4">
+                                                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree44" aria-expanded="false" aria-controls="collapseThree4">
                                                     Tips for everyone
                                                 </button>
                                             </h5>
                                         </div>
-                                        <div id="collapseThree4" class="collapse" aria-labelledby="headingThree4" data-parent="#accordion" style="">
+                                        <div id="collapseThree44" class="collapse" aria-labelledby="headingThree44" data-parent="#accordion" style="">
                                             <div class="card-body">For both online video submitting and live performances acts:
                                                 Be yourself,  Be original, Don't be boring, Be fearless. Dress to impress and Stand out from the crowd. Let's open our hearts and express our God given talent.
                                                 look good with nice outfit.  your videos both online video submitting and live performances are going to be on TV and others social media handle's. It doesn't hurt to wear something you're comfortable in but will also let you stand out in the crowd.

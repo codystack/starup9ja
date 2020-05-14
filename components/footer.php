@@ -13,7 +13,7 @@
                             <p>
                                 info@dreamersgang.com <br>
                                 +234 7082486557 <br>
-                                Port Harcourt, Rivers State.
+                                <!--Port Harcourt, Rivers State.-->
                             </p>
                             <div class="socail_links">
                                 <ul>
@@ -22,11 +22,11 @@
                                             <i class="ti-facebook"></i>
                                         </a>
                                     </li>
-                                    <!--<li>
-                                        <a href="#">
-                                            <i class="fa fa-google-plus"></i>
+                                    <li>
+                                        <a href="https://youtu.be/cm81o08nhgg">
+                                            <i class="fa fa-youtube"></i>
                                         </a>
-                                    </li>-->
+                                    </li>
                                     <li>
                                         <a href="https://twitter.com/dreamers_gang">
                                             <i class="fa fa-twitter"></i>
@@ -64,7 +64,7 @@
                             <ul>
                                 <li><a href="\">Home</a></li>
                                 <li><a href="about">About</a></li>
-                                <li><a href="#">Blog</a></li>
+                                <li><a href="blog">Blog</a></li>
                                 <li><a href="contact">Contact us</a></li>
                             </ul>
                         </div>
@@ -78,8 +78,7 @@
                                 <input type="text" placeholder="Enter your mail">
                                 <button type="submit">Subscribe</button>
                             </form>
-                            <p class="newsletter_text">Esteem spirit temper too say adieus who direct esteem esteems
-                                luckily.</p>
+                            <p class="newsletter_text">Discovery Creativity</p>
                         </div>
                     </div>
                 </div>
@@ -91,7 +90,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <p class="copy_right text-center">
-Copyright &copy; <script>document.write(new Date().getFullYear());</script> All Rights Reserved.
+Copyright &copy; <script>document.write(new Date().getFullYear());</script> DREAMERS GANG | All Rights Reserved.
                         </p>
                     </div>
                 </div>
@@ -133,6 +132,21 @@ Copyright &copy; <script>document.write(new Date().getFullYear());</script> All 
 
 
     <script src="js/main.js"></script>
+    <script>
+        $('#datepicker').datepicker({
+            iconsLibrary: 'fontawesome',
+            icons: {
+             rightIcon: '<span class="fa fa-caret-down"></span>'
+         }
+        });
+        $('#datepicker2').datepicker({
+            iconsLibrary: 'fontawesome',
+            icons: {
+             rightIcon: '<span class="fa fa-caret-down"></span>'
+         }
+
+        });
+    </script>
 </body>
 
 </html>

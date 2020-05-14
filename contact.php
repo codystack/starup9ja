@@ -86,24 +86,21 @@
         </div>
         <div class="col-lg-4">
           <div class="media contact-info">
-            <span class="contact-info__icon"><i class="ti-home"></i></span>
+            <span class="contact-info__icon"><i class="fa fa-home"></i></span>
             <div class="media-body">
-              <h3>Port Harcourt, Rivers State.</h3>
-              <p>Nigeria.</p>
+              <h3>Nigeria.</h3>
             </div>
           </div>
           <div class="media contact-info">
-            <span class="contact-info__icon"><i class="ti-tablet"></i></span>
+            <span class="contact-info__icon"><i class="fa fa-phone"></i></span>
             <div class="media-body">
               <h3>+234 7082486557</h3>
-              <p>Mon to Fri 9am to 6pm</p>
             </div>
           </div>
           <div class="media contact-info">
-            <span class="contact-info__icon"><i class="ti-email"></i></span>
+            <span class="contact-info__icon"><i class="fa fa-envelope"></i></span>
             <div class="media-body">
               <h3>info@dreamersgang.com</h3>
-              <p>Send us your query anytime!</p>
             </div>
           </div>
         </div>

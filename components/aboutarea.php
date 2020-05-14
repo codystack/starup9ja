@@ -12,8 +12,8 @@
                         <div class="section_title wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".3s">
                             <h3>About Dreamers Gang</h3>
                         </div>
-                        <p class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".4s">DG is a talent & discovery catalysts  primarily seeks to unearth unpolished gems with the potential to contribute a fresh take from the usual showmanship and business in the entertainment industry.</p>
-                        <p class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".4s">Thus it ultimately spotlights a more inclusive future of a broader range of talents to audience; as it operates on the principle that there is more than one talent, and so much more to making that spotlight .</p>
+                        <p class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".4s">DG is a talent catalysts; primarily seeks to unearth unpolished gems with the potential to contribute a fresh take from the usual showmanship and business in the entertainment industry. Aspiring & hopeful stars, singers, dancers, comedians, contortionists, ventriloquists and impressionists;  discovery creativity.</p>
+                        <p class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".4s">Thus it ultimately spotlights a more inclusive future of a broader range of talents to audience; as it operates on the principle that there is more than one talent, and so much more to making that spotlight.</p>
                         <p class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".4s">In view of this, the fusion of the various contestants’ talent backgrounds is developed to create new wave without losing their own individuality but a deeper appreciation for variety in the entertainment.</p>
                     </div>
                 </div>
