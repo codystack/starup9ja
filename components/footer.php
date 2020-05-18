@@ -23,7 +23,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://youtu.be/cm81o08nhgg">
+                                        <a href="https://m.youtube.com/channel/UCxT0JlI9vhyPuaUo2MSxgTw?view_as=subscriber">
                                             <i class="fa fa-youtube"></i>
                                         </a>
                                     </li>
@@ -78,7 +78,7 @@
                                 <input type="text" placeholder="Enter your mail">
                                 <button type="submit">Subscribe</button>
                             </form>
-                            <p class="newsletter_text">Discovery Creativity</p>
+                            <p class="newsletter_text">Discovery Talent & Creativity</p>
                         </div>
                     </div>
                 </div>

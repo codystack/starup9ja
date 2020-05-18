@@ -1,5 +1,5 @@
     <!-- testimonial_area  -->
-    <div class="testimonial_area  ">
+   <!-- <div class="testimonial_area  ">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -62,5 +62,5 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- /testimonial_area  -->
