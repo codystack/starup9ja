@@ -19,7 +19,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-lg-8">
-                    <form action="#" class="apply_form">
+                    <form action="#" class="apply_form" action="regform_process.php" method="post" id="contactForm" novalidate="novalidate">
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="apply_info_text text-center">
@@ -29,32 +29,32 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="single_field">
-                                    <input type="text" placeholder="First name">
+                                    <input type="text" name="fname" id="fname" placeholder="First name">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="single_field">
-                                    <input type="text" placeholder="Last name">
+                                    <input type="text" name="lname" id="lname" placeholder="Last name">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="single_field">
-                                    <input type="email" placeholder="Email">
+                                    <input type="email" name="email" id="email" placeholder="Email">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="single_field">
-                                    <input type="tel" placeholder="Phone no.">
+                                    <input type="tel" name="phone" id="phone" placeholder="Phone no.">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="single_field">
-                                    <select class="wide">
+                                    <select class="wide" name="state" id="state">
                                         <option data-display="State Of Origin">--State Of Origin--</option>
-                                        <option value="1">Abia</option>
-                                        <option value="2">Adamawa</option>
-                                        <option value="3">Akwa Ibom</option>
-                                        <option value="4">Anambra</option>
+                                        <option value="Abia">Abia</option>
+                                        <option value="Adamawa">Adamawa</option>
+                                        <option value="Akwa Ibom">Akwa Ibom</option>
+                                        <option value="Anambra">Anambra</option>
                                         <option value="5">Bauchi</option>
                                         <option value="6">Bayelsa</option>
                                         <option value="7">Benue</option>
@@ -93,17 +93,17 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="single_field">
-                                    <input type="text" placeholder="Address">
+                                    <input type="text" name="address" id="address" placeholder="Address">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="single_field">
-                                    <input type="text" name="" id="datepicker" placeholder="Date Of Birth">
+                                    <input type="text" name="dob" id="datepicker" placeholder="Date Of Birth">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="single_field">
-                                    <select class="wide">
+                                    <select class="wide" name="agecat" id="agecat">
                                         <option data-display="Age Category">--Select Age Category--</option>
                                         <option value="1">4-9yrs ₦1,000</option>
                                         <option value="2">10-15yrs ₦2,000</option>
@@ -114,7 +114,7 @@
                             </div>
                             <div class="col-md-12">
                                 <div class="single_field">
-                                    <select class="wide">
+                                    <select class="wide" name="category" id="category">
                                         <option data-display="Performance">--Select Performance Category--</option>
                                         <option value="1">Music</option>
                                         <option value="2">Dance</option>
