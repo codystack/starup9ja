@@ -1,7 +1,7 @@
 <?php require('./components/header.php');?>
 
       <!-- bradcam_area  -->
-      <div class="bradcam_area bradcam_bg_4">
+      <div class="bradcam_area bradcam_bg_5">
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
@@ -105,10 +105,10 @@
                                 <div class="single_field">
                                     <select class="wide" name="agecat" id="agecat">
                                         <option data-display="Age Category">--Select Age Category--</option>
-                                        <option value="1">4-9yrs ₦1,000</option>
-                                        <option value="2">10-15yrs ₦2,000</option>
-                                        <option value="3">16-21yrs ₦3,000</option>
-                                        <option value="4">22-28yrs ₦5,000</option>
+                                        <option value="1">4-9yrs <!--₦1,000--></option>
+                                        <option value="2">10-15yrs <!--₦2,000--></option>
+                                        <option value="3">16-21yrs <!--₦3,000--></option>
+                                        <option value="4">22-28yrs <!--₦5,000--></option>
                                       </select>
                                 </div>
                             </div>
@@ -126,7 +126,7 @@
                             </div>
                             <div class="col-md-12">
                                 <div class="pay_text">
-                                    <p>You have to pay: <span>₦0</span></p>
+                                    <p>You have to pay: <span>Free</span></p>
                                 </div>
                             </div>
                             <div class="col-md-12">
