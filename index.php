@@ -29,12 +29,12 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 col-md-6">
                     <div class="about_img wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">
-                        <img src="img/hmeimg.jpg" alt="">
+                        <img src="https://i.imgur.com/vZj86St.jpg" alt="">
                     </div>
                 </div>
                 <div class="col-lg-6 col-md-6">
                     <div class="about_img wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">
-                        <img src="img/hmeimg1.jpg" alt="">
+                        <img src="https://i.imgur.com/Trruy0o.jpg" alt="">
                     </div>
                 </div>
             </div>
