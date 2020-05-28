@@ -1,19 +1,25 @@
 <?php
 
-    $to = "info@dreamersgang.com";
-    $from = $_REQUEST['email'];
-    $name = $_REQUEST['name'];
-    $subject = $_REQUEST['subject'];
-    $number = $_REQUEST['number'];
-    $cmessage = $_REQUEST['message'];
+	$to = 'info@dreamersgang.com'; // replace this mail with yours
+	$firstname = $_POST["fname"];
+	$email= $_POST["email"];
+	$headers = 'MIME-Version: 1.0' . "\r\n";
+	$headers .= "From: " . $email . "\r\n"; // Sender's E-mail
+	$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
 
-    $headers = "From: $from";
-	$headers = "From: " . $from . "\r\n";
-	$headers .= "Reply-To: ". $from . "\r\n";
-	$headers .= "MIME-Version: 1.0\r\n";
-	$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+	$message ='
+	'.$firstname.'  '.$laststname.'
+	Email: '.$email.'
+	';
 
-    $subject = "You have a message from your Bitmap Photography.";
+	if (@mail($to, $email, $message, $headers))
+	{
+		echo 'The message has been sent.';
+	}else{
+	echo 'failed';
+	}
+
+    $subject = "New Contact";
 
     $logo = 'img/logo.png';
     $link = '#';
@@ -35,3 +41,4 @@
     $send = mail($to, $subject, $body, $headers);
 
 ?>
+
