@@ -23,7 +23,7 @@
                     <div class="blog_left_sidebar">
                         <article class="blog_item">
                             <div class="blog_item_img">
-                                <img class="card-img rounded-0" src="https://i.imgur.com/IpBzp5K.jpg" alt="">
+                                <img class="card-img rounded-0" src="https://i.imgur.com/zF8vfb1.jpg" alt="">
                                 <a href="#" class="blog_item_date">
                                     <h3>20</h3>
                                     <p>May</p>

@@ -15,7 +15,7 @@
                     </div>
                     <div class="col-lg-5 col-md-6">
                     <div class="embed-responsive embed-responsive-16by9 vidclass">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/watch?v=aXD-6XvP7yk" allowfullscreen></iframe>
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/aXD-6XvP7yk" allowfullscreen></iframe>
                     </div>
                     </div>
                 </div>
@@ -27,14 +27,9 @@
     <div class="about_area plus_padding">
         <div class="container">
             <div class="row align-items-center">
-                <div class="col-lg-6 col-md-6">
+                <div class="col-lg-12 col-md-12">
                     <div class="about_img wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">
-                        <img src="https://i.imgur.com/vZj86St.jpg" alt="">
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6">
-                    <div class="about_img wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">
-                        <img src="https://i.imgur.com/Trruy0o.jpg" alt="">
+                        <img src="https://i.imgur.com/jAOaRt5.jpg" alt="">
                     </div>
                 </div>
             </div>

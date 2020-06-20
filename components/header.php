@@ -53,6 +53,7 @@
                                             <li><a href="about">About</a></li>
                                             <!--<li><a href="talents">Talents</a></li>-->
                                             <li><a href="#">Contestants</a></li>
+                                            <li><a href="sponsorship">Sponsorship</a></li>
                                             <!--
                                             <li><a href="#">pages <i class="ti-angle-down"></i></a>
                                                 <ul class="submenu">
