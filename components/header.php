@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Dreams Gang&trade; :: Discovery Talent & Creativity</title>
+    <title>Starup 9ja&trade; :: Discovery Talent & Creativity</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -41,7 +41,7 @@
                             <div class="col-xl-3 col-lg-2">
                                 <div class="logo">
                                     <a href="\">
-                                        <img src="https://i.imgur.com/9zRClLc.png" alt="" style="height: 100px;">
+                                        <img src="https://i.imgur.com/xszpgOw.png" alt="" style="height: 100px;">
                                     </a>
                                 </div>
                             </div>

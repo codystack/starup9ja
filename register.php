@@ -23,7 +23,7 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="apply_info_text text-center">
-                                    <h4>DREAMERS GANG REALITY TALENT CONTEST REGISTRATION</h4>
+                                    <h4>STARUP 9JA EMERGENCE CHALLENGE</h4>
                                     <p>Please input the correct informations bellow.</p>
                                 </div>
                             </div>

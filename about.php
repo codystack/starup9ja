@@ -44,11 +44,11 @@
                         <div class="section_title wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".3s">
                             <h3>About Audition</h3>
                         </div>
-                        <p class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".4s">The producers of DG  want to see your act  maybe personal or Group performers. We enjoy all talent, whether you are an amazing singer, or can do something really amazing with your body or creative in your act, We want to be shocked and amazed by what you can do.<br><em>take a chance and show us your talent.</em></p>
+                        <p class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".4s">The producers of Starup 9ja want to see your act  maybe personal or Group performers. We enjoy all talent, whether you are an amazing singer, or can do something really amazing with your body or creative in your act, We want to be shocked and amazed by what you can do.<br><em>take a chance and show us your talent.</em></p>
                         <div class="section_title wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".3s">
                             <h3>About Contestants</h3>
                         </div>
-                        <p class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".4s">DG identifies and celebrates talented Amateur performers  both   children and youths from 4 to 28 years of age. Skills  in Music, poetry,  novelty acts, dancing and  comedy.</p>
+                        <p class="wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".4s">Starup 9ja identifies and celebrates talented Amateur performers  both   children and youths from 4 to 28 years of age. Skills  in Music, poetry,  novelty acts, dancing and  comedy.</p>
                     </div>
                 </div>
             </div>

@@ -7,33 +7,33 @@
                         <div class="footer_widget wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
                             <div class="footer_logo">
                                 <a href="\">
-                                    <img src="https://i.imgur.com/1vgaXgx.png" alt="" style="height: 100px;">
+                                    <img src="https://i.imgur.com/9rYGpBt.png" alt="" style="height: 100px;">
                                 </a>
                             </div>
                             <p>
-                                info@dreamersgang.com <br>
+                                info@starup9ja.com <br>
                                 +234 7082486557 <br>
                                 <!--Port Harcourt, Rivers State.-->
                             </p>
                             <div class="socail_links">
                                 <ul>
                                     <li>
-                                        <a href="https://web.facebook.com/DREAMERSGANG/">
+                                        <a href="https://web.facebook.com/Starup9ja/">
                                             <i class="ti-facebook"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://m.youtube.com/channel/UCxT0JlI9vhyPuaUo2MSxgTw?view_as=subscriber">
+                                        <a href="https://www.youtube.com/channel/UC5ZxtVkoJYl-ZS4HxHxShTQ?app=desktop">
                                             <i class="fa fa-youtube"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://twitter.com/dreamers_gang">
+                                        <a href="https://twitter.com/Starup9ja">
                                             <i class="fa fa-twitter"></i>
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="https://www.instagram.com/dreamersgang_dg/">
+                                        <a href="https://www.instagram.com/starup9ja/">
                                             <i class="fa fa-instagram"></i>
                                         </a>
                                     </li>
@@ -90,7 +90,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <p class="copy_right text-center">
-Copyright &copy; <script>document.write(new Date().getFullYear());</script> DREAMERS GANG | All Rights Reserved.
+Copyright &copy; <script>document.write(new Date().getFullYear());</script> Star Up 9ja | All Rights Reserved<br>Built by <a href="https://www.webify.com.ng/" target="_blank">WebifyNG</a>
                         </p>
                     </div>
                 </div>
