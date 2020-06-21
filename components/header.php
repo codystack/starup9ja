@@ -10,6 +10,7 @@
 
     <!-- <link rel="manifest" href="site.webmanifest"> -->
     <link rel="shortcut icon" type="image/x-icon" href="https://i.imgur.com/PecHXd0.png">
+    <link rel="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/8.11.8/sweetalert2.min.css">
     <!-- Place favicon.ico in the root directory -->
 
     <!-- CSS here -->
