@@ -4,7 +4,6 @@
 $email = "";
 $password    = "";
 $errors = array();
-$results = array();  
 
 
 // connect to the database

@@ -120,9 +120,6 @@ Copyright &copy; <script>document.write(new Date().getFullYear());</script> Star
     <script src="js/plugins.js"></script>
     <script src="js/gijgo.min.js"></script>
     <script src="js/slick.min.js"></script>
-    <script src="https://cdn.trackjs.com/agent/v3/latest/t.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
-    <script src="./js/custom.js"></script>
 
 
 
@@ -132,6 +129,9 @@ Copyright &copy; <script>document.write(new Date().getFullYear());</script> Star
     <script src="js/jquery.form.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/mail-script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="js/custom.js"></script>
+    <script src="vendor/sweetalert2/dist/sweetalert2.min.js"></script>
 
 
     <script src="js/main.js"></script>

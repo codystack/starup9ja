@@ -1,4 +1,8 @@
-<?php require('./components/header.php');?>
+<?php require('./components/header.php');
+include('./controllers/auth-controller.php');
+//session_start();
+
+?>
 
       <!-- bradcam_area  -->
       <div class="bradcam_area bradcam_bg_5">
@@ -24,7 +28,7 @@
                             <div class="col-lg-12">
                                 <div class="apply_info_text text-center">
                                     <h4>STARUP 9JA EMERGENCE CHALLENGE</h4>
-                                    <p>Please input the correct informations bellow.</p>
+                                    <p>Please input the correct informations below.</p>
                                 </div>
                             </div>
                             <div class="col-md-6">
@@ -49,7 +53,7 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="single_field">
-                                    <select class="wide" name="state" required>
+                                    <select class="wide" name="state_of_origin" required>
                                     <option data-display="State Of Origin">State Of Origin</option>
                                     <option value="Abia">Abia</option>
                                     <option value="Adamawa">Adamawa</option>
@@ -98,17 +102,17 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="single_field">
-                                    <input type="text" name="dob" required placeholder="Date Of Birth">
+                                    <input type="date" name="date_of_birth" required placeholder="Date Of Birth">
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="single_field">
                                     <select class="wide" name="age_category" required>
                                         <option data-display="Age Category">--Select Age Category--</option>
-                                        <option value="1">4-9yrs <!--₦1,000--></option>
-                                        <option value="2">10-15yrs <!--₦2,000--></option>
-                                        <option value="3">16-21yrs <!--₦3,000--></option>
-                                        <option value="4">22-28yrs <!--₦5,000--></option>
+                                        <option value="4-9yrs">4-9yrs <!--₦1,000--></option>
+                                        <option value="10-15yrs">10-15yrs <!--₦2,000--></option>
+                                        <option value="16-21yrs">16-21yrs <!--₦3,000--></option>
+                                        <option value="22-28yrs">22-28yrs <!--₦5,000--></option>
                                       </select>
                                 </div>
                             </div>
@@ -116,11 +120,11 @@
                                 <div class="single_field">
                                     <select class="wide" name="performance_category" required>
                                         <option data-display="Performance">--Select Performance Category--</option>
-                                        <option value="1">Music</option>
-                                        <option value="2">Dance</option>
-                                        <option value="3">Comedy</option>
-                                        <option value="4">Poetry</option>
-                                        <option value="4">Novelty Act</option>
+                                        <option value="Music">Music</option>
+                                        <option value="Dance">Dance</option>
+                                        <option value="Comedy">Comedy</option>
+                                        <option value="Poetry">Poetry</option>
+                                        <option value="Novelty">Novelty Act</option>
                                       </select>
                                 </div>
                             </div>
