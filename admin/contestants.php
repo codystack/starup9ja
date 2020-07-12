@@ -21,15 +21,6 @@
                                         <div class="card-header">
                                             <h5>Contestants List</h5>
                                             <span>use class <code>table-hover</code> inside table element</span>
-                                                <div class="navbar-container container-fluid">
-                                                    <div class="main-search morphsearch-search">
-                                                        <div class="input-group">
-                                                            <span class="input-group-addon search-close"><i class="ti-close"></i></span>
-                                                            <input type="text" class="form-control">
-                                                            <span class="input-group-addon search-btn"><i class="ti-search"></i></span>
-                                                        </div>
-                                                    </div>
-                                                </div>
                                             <div class="card-header-right">
 												<ul class="list-unstyled card-option">
 													<li><i class="fa fa-chevron-left"></i></li>

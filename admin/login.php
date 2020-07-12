@@ -1,34 +1,72 @@
+<?php
+session_start();
+include('../controllers/dbconnect.php');
+//Login User Start
+if (isset($_POST['login_admin'])) {
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+    $name = $_POST['name'];
+    $error = array();  
+    $errors = '<div style="margin-top: 50px; margin-left: 50px; margin-right: 50px;"><div class="alert alert-danger alert-center alert-dismissible fade show">Wrong Username or Password!<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div></div>';
+
+    
+    $username= mysqli_real_escape_string($con, $_POST['username']);
+    $password = mysqli_real_escape_string($con, $_POST['password']);
+    $name = mysqli_real_escape_string($con, $_POST['name']);
+
+    if (empty($username)) {
+        array_push($error, "username is required");
+    }
+
+    if (count($error) == 0) {
+        $password = md5($password);
+        $query = "SELECT * FROM admin WHERE username='$username' AND password='$password'";
+        $results = mysqli_query($con, $query);
+
+        while($row = mysqli_fetch_array($results)) {
+            $name = $row['name'];
+            $email = $row['email'];
+        }
+
+        if (mysqli_num_rows($results) == 1) {
+        $_SESSION['username'] = $username;
+        $_SESSION['name'] = $name;
+        $_SESSION['success'] = "You are now logged in";
+        header('location: dashboard');
+        }else {
+            array_push($errors, "Wrong username/password combination");
+        }
+    }
+}
+//Login User End
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>Gradient Able bootstrap admin template by codedthemes </title>
-    <!-- HTML5 Shim and Respond.js IE9 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-      <![endif]-->
-    <!-- Meta -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Gradient Able Bootstrap admin template made using Bootstrap 4. The starter version of Gradient Able is completely free for personal project." />
-    <meta name="keywords" content="free dashboard template, free admin, free bootstrap template, bootstrap admin template, admin theme, admin dashboard, dashboard template, admin template, responsive" />
-    <meta name="author" content="codedthemes">
-    <!-- Favicon icon -->
-    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
-    <!-- Google font-->
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
-    <!-- Required Fremwork -->
-    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap/css/bootstrap.min.css">
-    <!-- themify-icons line icon -->
-    <link rel="stylesheet" type="text/css" href="assets/icon/themify-icons/themify-icons.css">
-    <!-- ico font -->
-    <link rel="stylesheet" type="text/css" href="assets/icon/icofont/css/icofont.css">
-    <!-- Style.css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-</head>
+    <title>Webify Dashboard&trade; :: Get your business online</title>
+      <!-- Meta -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="description" content="Webify Dashboard are creative user and admin dashboard that works like your wordpress, that help our clients easily manage their own website on the GO! even on their mobile devices." />
+      <meta name="keywords" content="Website development, App development, Software development, Branding, Webify, Webifyng, Lagos, Nigeria, Port Harcourt, Github, Creative Agency in Lagos, Branding Agency in lagos, responsive website development company in Lagos" />
+      <meta name="author" content="webifyng">
+      <!-- Favicon icon -->
+      <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
+      <!-- Google font-->
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
+      <!-- Required Fremwork -->
+      <link rel="stylesheet" type="text/css" href="assets/css/bootstrap/css/bootstrap.min.css">
+      <!-- themify-icons line icon -->
+      <link rel="stylesheet" type="text/css" href="assets/icon/themify-icons/themify-icons.css">
+	  <link rel="stylesheet" type="text/css" href="assets/icon/font-awesome/css/font-awesome.min.css">
+      <!-- ico font -->
+      <link rel="stylesheet" type="text/css" href="assets/icon/icofont/css/icofont.css">
+      <!-- Style.css -->
+      <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+      <link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.css">
+  </head>
 
 <body class="fix-menu">
         <!-- Pre-loader start -->
@@ -46,7 +84,7 @@
                 <div class="col-sm-12">
                     <!-- Authentication card start -->
                     <div class="login-card card-block auth-body mr-auto ml-auto">
-                        <form class="md-float-material">
+                        <form class="md-float-material" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
                             <div class="text-center">
                                 <img src="assets/images/logo.png" alt="logo.png">
                             </div>
@@ -57,38 +95,24 @@
                                     </div>
                                 </div>
                                 <hr/>
-                                <div class="input-group">
-                                    <input type="email" class="form-control" placeholder="Your Email Address">
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" placeholder="Username" name="username">
                                     <span class="md-line"></span>
                                 </div>
-                                <div class="input-group">
-                                    <input type="password" class="form-control" placeholder="Password">
+                                <div class="input-group mb-3">
+                                    <input type="password" class="form-control" placeholder="Password" name="password">
                                     <span class="md-line"></span>
-                                </div>
-                                <div class="row m-t-25 text-left">
-                                    <div class="col-sm-7 col-xs-12">
-                                        <div class="checkbox-fade fade-in-primary">
-                                            <label>
-                                                <input type="checkbox" value="">
-                                                <span class="cr"><i class="cr-icon icofont icofont-ui-check txt-primary"></i></span>
-                                                <span class="text-inverse">Remember me</span>
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-5 col-xs-12 forgot-phone text-right">
-                                        <a href="auth-reset-password.html" class="text-right f-w-600 text-inverse"> Forgot Your Password?</a>
-                                    </div>
                                 </div>
                                 <div class="row m-t-30">
                                     <div class="col-md-12">
-                                        <button type="button" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20">Sign in</button>
+                                        <button type="submit" class="btn btn-primary btn-md btn-block waves-effect text-center m-b-20" name="login_admin">Sign in</button>
                                     </div>
                                 </div>
                                 <hr/>
                                 <div class="row">
                                     <div class="col-md-10">
                                         <p class="text-inverse text-left m-b-0">Thank you and enjoy our website.</p>
-                                        <p class="text-inverse text-left"><b>Your Authentication Team</b></p>
+                                        <p class="text-inverse text-left"><b>Powered by Webify&trade;</b></p>
                                     </div>
                                     <div class="col-md-2">
                                         <img src="assets/images/auth/Logo-small-bottom.png" alt="small-logo.png">

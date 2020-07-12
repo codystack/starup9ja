@@ -1,9 +1,9 @@
-<?php require('./components/header.php');
+<?php 
+session_start();
+include('./components/header.php');
+include('./controllers/dbconnect.php');
 include('./controllers/auth-controller.php');
-//session_start();
-
 ?>
-
       <!-- bradcam_area  -->
       <div class="bradcam_area bradcam_bg_5">
         <div class="container">
@@ -146,8 +146,10 @@ include('./controllers/auth-controller.php');
     </div>
     <!--/ apply_form_area -->
 
-<?php require('./components/testimonials.php');?>
+<?php 
+include('./components/testimonials.php');
 
-<?php require('./components/logoslide.php');?>
+include('./components/logoslide.php');
 
-<?php require('./components/footer.php');?>
+include('./components/footer.php');
+?>

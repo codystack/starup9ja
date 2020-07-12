@@ -1,3 +1,23 @@
+<?php 
+  session_start(); 
+
+  if (!isset($_SESSION['username'])) {
+  	$_SESSION['msg'] = "You must log in first";
+  	header('location: login');
+  }
+  if (isset($_GET['logout'])) {
+  	session_destroy();
+  	unset($_SESSION['username']);
+  	header("location: login");
+  }
+?>
+<?php
+    include("../controllers/dbconnect.php");
+
+    if (!isset($_SESSION['username'])){
+        header("Location: login");
+    }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -74,15 +94,6 @@
                            <li>
                                <div class="sidebar_toggle"><a href="javascript:void(0)"><i class="ti-menu"></i></a></div>
                            </li>
-                           <li class="header-search">
-                               <div class="main-search morphsearch-search">
-                                   <div class="input-group">
-                                       <span class="input-group-addon search-close"><i class="ti-close"></i></span>
-                                       <input type="text" class="form-control">
-                                       <span class="input-group-addon search-btn"><i class="ti-search"></i></span>
-                                   </div>
-                               </div>
-                           </li>
                            <li>
                                <a href="#!" onclick="javascript:toggleFullScreen()">
                                    <i class="ti-fullscreen"></i>
@@ -90,53 +101,10 @@
                            </li>
                        </ul>
                        <ul class="nav-right">
-                           <li class="header-notification">
-                               <a href="#!">
-                                   <i class="ti-bell"></i>
-                                   <span class="badge bg-c-pink"></span>
-                               </a>
-                               <ul class="show-notification">
-                                   <li>
-                                       <h6>Notifications</h6>
-                                       <label class="label label-danger">New</label>
-                                   </li>
-                                   <li>
-                                       <div class="media">
-                                           <img class="d-flex align-self-center img-radius" src="assets/images/avatar-2.jpg" alt="Generic placeholder image">
-                                           <div class="media-body">
-                                               <h5 class="notification-user">John Doe</h5>
-                                               <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
-                                               <span class="notification-time">30 minutes ago</span>
-                                           </div>
-                                       </div>
-                                   </li>
-                                   <li>
-                                       <div class="media">
-                                           <img class="d-flex align-self-center img-radius" src="assets/images/avatar-4.jpg" alt="Generic placeholder image">
-                                           <div class="media-body">
-                                               <h5 class="notification-user">Joseph William</h5>
-                                               <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
-                                               <span class="notification-time">30 minutes ago</span>
-                                           </div>
-                                       </div>
-                                   </li>
-                                   <li>
-                                       <div class="media">
-                                           <img class="d-flex align-self-center img-radius" src="assets/images/avatar-3.jpg" alt="Generic placeholder image">
-                                           <div class="media-body">
-                                               <h5 class="notification-user">Sara Soudein</h5>
-                                               <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer elit.</p>
-                                               <span class="notification-time">30 minutes ago</span>
-                                           </div>
-                                       </div>
-                                   </li>
-                               </ul>
-                           </li>
-                           
                            <li class="user-profile header-notification">
                                <a href="#!">
-                                   <img src="assets/images/avatar-4.jpg" class="img-radius" alt="User-Profile-Image">
-                                   <span>John Doe</span>
+                                   <img src="https://i.imgur.com/WKOInUn.png" class="img-radius" alt="User-Profile-Image">
+                                   <span><?php echo $_SESSION['name'] ?></span>
                                    <i class="ti-angle-down"></i>
                                </a>
                                <ul class="show-notification profile-notification">
@@ -146,7 +114,7 @@
                                        </a>
                                    </li>
                                    <li>
-                                       <a href="user-profile.html">
+                                       <a href="#!">
                                            <i class="ti-user"></i> Profile
                                        </a>
                                    </li>
@@ -157,7 +125,7 @@
                                        </a>
                                    </li>
                                    <li>
-                                       <a href="auth-normal-sign-in.html">
+                                       <a href="index.php?logout='1'">
                                        <i class="ti-layout-sidebar-left"></i> Logout
                                    </a>
                                    </li>
@@ -190,14 +158,14 @@
                                     </a>
                                 </li>
                                 <li class="">
-                                    <a href="dashboard">
+                                    <a href="#!">
                                         <span class="pcoded-micon"><i class="ti-folder"></i><b>D</b></span>
                                         <span class="pcoded-mtext" data-i18n="nav.dash.main">Files</span>
                                         <span class="pcoded-mcaret"></span>
                                     </a>
                                 </li>
                                 <li class="">
-                                    <a href="transactions">
+                                    <a href="#!">
                                         <span class="pcoded-micon"><i class="ti-receipt"></i><b>D</b></span>
                                         <span class="pcoded-mtext" data-i18n="nav.dash.main">Transactions</span>
                                         <span class="pcoded-mcaret"></span>
@@ -211,7 +179,7 @@
                                     </a>
                                 </li>
                                 <li class="">
-                                    <a href="#!">
+                                    <a href="index.php?logout='1'">
                                         <span class="pcoded-micon"><i class="ti-power-off"></i><b>D</b></span>
                                         <span class="pcoded-mtext" data-i18n="nav.dash.main">Logout</span>
                                         <span class="pcoded-mcaret"></span>
