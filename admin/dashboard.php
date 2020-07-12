@@ -25,16 +25,16 @@ include('../controllers/dbconnect.php');
                                             <div class="col-md-6 col-xl-3">
                                                 <div class="card bg-c-green order-card">
                                                     <div class="card-block">
-                                                        <h6 class="m-b-20">Total Sales</h6>
-                                                        <h2 class="text-right"><i class="ti-tag f-left"></i><span>1641</span></h2>
+                                                        <h6 class="m-b-20">Total Uploads</h6>
+                                                        <h2 class="text-right"><i class="ti-upload f-left"></i><span>0</span></h2>
                                                     </div>
                                                 </div>
                                             </div>
                                             <div class="col-md-6 col-xl-3">
                                                 <div class="card bg-c-yellow order-card">
                                                     <div class="card-block">
-                                                        <h6 class="m-b-20">Revenue</h6>
-                                                        <h2 class="text-right"><i class="ti-reload f-left"></i><span>$42,562</span></h2>
+                                                        <h6 class="m-b-20">Total Voters</h6>
+                                                        <h2 class="text-right"><i class="ti-check-box f-left"></i><span>0</span></h2>
                                                     </div>
                                                 </div>
                                             </div>
@@ -42,7 +42,7 @@ include('../controllers/dbconnect.php');
                                                 <div class="card bg-c-pink order-card">
                                                     <div class="card-block">
                                                         <h6 class="m-b-20">Total Profit</h6>
-                                                        <h2 class="text-right"><i class="ti-wallet f-left"></i><span>$9,562</span></h2>
+                                                        <h2 class="text-right"><i class="ti-wallet f-left"></i><span>₦0</span></h2>
                                                     </div>
                                                 </div>
                                             </div>
@@ -86,7 +86,7 @@ include('../controllers/dbconnect.php');
                                                                             <th>Reg No</th>
                                                                         </tr>
                                                                         <?php
-                                                                        $sql = "SELECT * FROM users order by date DESC";
+                                                                        $sql = "SELECT * FROM users order by date ASC";
                                                                         $result = mysqli_query($con, $sql);
                                                                         if (mysqli_num_rows($result) > 0) {
                                                                             // output data of each row

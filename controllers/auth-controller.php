@@ -12,7 +12,7 @@ if (isset($_POST['register'])) {
   $date_of_birth         = $_POST['date_of_birth'];
   $age_category          = $_POST['age_category'];
   $performance_category  = $_POST['performance_category'];
-  $regno                 = uniqid('SUP');
+  $regno                 = rand(1000,9999);
   $error                 = array();  
   $errors = '<div style="margin-top: 50px; margin-left: 50px; margin-right: 50px;"><div class="alert alert-danger alert-center alert-dismissible fade show">User Already Exist!<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div></div>';
   $errorss = '<div style="margin-top: 50px; margin-left: 50px; margin-right: 50px;"><div class="alert alert-danger alert-center alert-dismissible fade show">Username Is Taken!<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div></div>';
