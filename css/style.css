@@ -1072,14 +1072,14 @@ h3 {
 
 /* line 111, ../../Arafath/CL/December/234. Finance/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment .socail_links ul li a {
-  color: #A8A7A0;
+  color: #0d70e0;
   margin: 0 10px;
   font-size: 15px;
 }
 
 /* line 115, ../../Arafath/CL/December/234. Finance/HTML/scss/_header.scss */
 .header-area .main-header-area .Appointment .socail_links ul li a:hover {
-  color: #fff;
+  color: #0d70e0;
 }
 
 /* line 151, ../../Arafath/CL/December/234. Finance/HTML/scss/_header.scss */
@@ -3078,12 +3078,12 @@ p #amount {
   color: #fff !important;
   line-height: 40px !important;
   background: transparent;
-  color: #E8E8E8 !important;
+  color: #0d70e0 !important;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
-  border: 1px solid #E8E8E8;
+  border: 1px solid #0d70e0;
 }
 
 /* line 193, ../../Arafath/CL/December/234. Finance/HTML/scss/_footer.scss */

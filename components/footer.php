@@ -90,7 +90,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <p class="copy_right text-center">
-Copyright &copy; <script>document.write(new Date().getFullYear());</script> Star Up 9ja | All Rights Reserved<br>Built by <a href="https://www.webify.com.ng/" target="_blank">WebifyNG</a>
+Copyright &copy; <script>document.write(new Date().getFullYear());</script> Star Up 9ja | RC 3116531 | All Rights Reserved<br>Built by <a href="https://www.webify.com.ng/" target="_blank">WebifyNG</a>
                         </p>
                     </div>
                 </div>
@@ -129,9 +129,6 @@ Copyright &copy; <script>document.write(new Date().getFullYear());</script> Star
     <script src="js/jquery.form.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/mail-script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
-    <script src="js/custom.js"></script>
-    <script src="vendor/sweetalert2/dist/sweetalert2.min.js"></script>
 
 
     <script src="js/main.js"></script>
