@@ -1719,14 +1719,31 @@ img.homeadvert {
   margin-bottom: 150px;
 }
 
+.about_area1 {
+  margin-bottom: 5px;
+}
+
+
 /* line 3, ../../Arafath/CL/December/234. Finance/HTML/scss/_about.scss */
 .about_area.plus_padding {
-  padding-top: 150px;
+  padding-top: 50px;
+}
+
+/* line 3, ../../Arafath/CL/December/234. Finance/HTML/scss/_about.scss */
+.about_area1.plus_padding {
+  padding-top: 50px;
 }
 
 @media (max-width: 767px) {
   /* line 3, ../../Arafath/CL/December/234. Finance/HTML/scss/_about.scss */
   .about_area.plus_padding {
+    padding-top: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 3, ../../Arafath/CL/December/234. Finance/HTML/scss/_about.scss */
+  .about_area1.plus_padding {
     padding-top: 60px;
   }
 }
@@ -1738,6 +1755,13 @@ img.homeadvert {
   }
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 3, ../../Arafath/CL/December/234. Finance/HTML/scss/_about.scss */
+  .about_area1.plus_padding {
+    padding-top: 100px;
+  }
+}
+
 @media (max-width: 767px) {
   /* line 1, ../../Arafath/CL/December/234. Finance/HTML/scss/_about.scss */
   .about_area {
@@ -1745,10 +1769,25 @@ img.homeadvert {
   }
 }
 
+@media (max-width: 767px) {
+  /* line 1, ../../Arafath/CL/December/234. Finance/HTML/scss/_about.scss */
+  .about_area1 {
+    margin-bottom: 5px;
+  }
+}
+
+
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 1, ../../Arafath/CL/December/234. Finance/HTML/scss/_about.scss */
   .about_area {
     margin-bottom: 100px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 1, ../../Arafath/CL/December/234. Finance/HTML/scss/_about.scss */
+  .about_area1 {
+    margin-bottom: 10px;
   }
 }
 
@@ -1759,14 +1798,32 @@ img.homeadvert {
   }
 }
 
+@media (max-width: 767px) {
+  /* line 18, ../../Arafath/CL/December/234. Finance/HTML/scss/_about.scss */
+  .about_area1 .about_img {
+    margin-bottom: 20px;
+  }
+}
+
 /* line 22, ../../Arafath/CL/December/234. Finance/HTML/scss/_about.scss */
 .about_area .about_img img {
   width: 100%;
 }
 
+/* line 22, ../../Arafath/CL/December/234. Finance/HTML/scss/_about.scss */
+.about_area1 .about_img img {
+  width: 100%;
+}
+
+
 /* line 27, ../../Arafath/CL/December/234. Finance/HTML/scss/_about.scss */
 .about_area .about_info .section_title {
   margin-bottom: 36px;
+}
+
+/* line 27, ../../Arafath/CL/December/234. Finance/HTML/scss/_about.scss */
+.about_area1 .about_info .section_title {
+  margin-bottom: 16px;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -1776,11 +1833,25 @@ img.homeadvert {
   }
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 27, ../../Arafath/CL/December/234. Finance/HTML/scss/_about.scss */
+  .about_area1 .about_info .section_title {
+    margin-bottom: 10px;
+  }
+}
+
 /* line 33, ../../Arafath/CL/December/234. Finance/HTML/scss/_about.scss */
 .about_area .about_info p {
   color: #7A838B;
   font-size: 16px;
 }
+
+/* line 33, ../../Arafath/CL/December/234. Finance/HTML/scss/_about.scss */
+.about_area1 .about_info p {
+  color: #7A838B;
+  font-size: 16px;
+}
+
 
 /* line 37, ../../Arafath/CL/December/234. Finance/HTML/scss/_about.scss */
 .about_area .about_info .about_list {
@@ -1788,8 +1859,24 @@ img.homeadvert {
   margin-top: 10px;
 }
 
+/* line 37, ../../Arafath/CL/December/234. Finance/HTML/scss/_about.scss */
+.about_area1 .about_info .about_list {
+  margin-bottom: 52px;
+  margin-top: 10px;
+}
+
 /* line 41, ../../Arafath/CL/December/234. Finance/HTML/scss/_about.scss */
 .about_area .about_info .about_list ul li {
+  font-size: 16px;
+  line-height: 32px;
+  color: #040E27;
+  font-weight: 400;
+  position: relative;
+  padding-left: 23px;
+}
+
+/* line 41, ../../Arafath/CL/December/234. Finance/HTML/scss/_about.scss */
+.about_area1 .about_info .about_list ul li {
   font-size: 16px;
   line-height: 32px;
   color: #040E27;
@@ -1806,8 +1893,34 @@ img.homeadvert {
   }
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  /* line 41, ../../Arafath/CL/December/234. Finance/HTML/scss/_about.scss */
+  .about_area1 .about_info .about_list ul li {
+    font-size: 14px;
+    line-height: 28px;
+  }
+}
+
 /* line 52, ../../Arafath/CL/December/234. Finance/HTML/scss/_about.scss */
 .about_area .about_info .about_list ul li::before {
+  position: absolute;
+  left: 0;
+  width: 8px;
+  height: 8px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  background: #0A8CFF;
+  content: '';
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* line 52, ../../Arafath/CL/December/234. Finance/HTML/scss/_about.scss */
+.about_area1 .about_info .about_list ul li::before {
   position: absolute;
   left: 0;
   width: 8px;
@@ -3665,8 +3778,8 @@ p #amount {
 
 /* line 1, ../../Arafath/CL/December/234. Finance/HTML/scss/_apply.scss */
 .apply_form_area {
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 50px;
+  padding-bottom: 10px;
 }
 
 @media (max-width: 767px) {

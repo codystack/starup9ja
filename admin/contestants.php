@@ -20,6 +20,7 @@
 ?>
 <?php
 include('../controllers/dbconnect.php');
+include('./components/modal.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -35,11 +36,8 @@ include('../controllers/dbconnect.php');
       <meta name="author" content="webifyng">
       <!-- Favicon icon -->
       <link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
-      <!-- Google font-->
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" rel="stylesheet">
-      <!-- Required Fremwork -->
       <link rel="stylesheet" type="text/css" href="assets/css/bootstrap/css/bootstrap.min.css">
-      <!-- themify-icons line icon -->
       <link rel="stylesheet" type="text/css" href="assets/icon/themify-icons/themify-icons.css">
 	  <link rel="stylesheet" type="text/css" href="assets/icon/font-awesome/css/font-awesome.min.css">
       <!-- ico font -->
@@ -47,6 +45,7 @@ include('../controllers/dbconnect.php');
       <!-- Style.css -->
       <link rel="stylesheet" type="text/css" href="assets/css/style.css">
       <link rel="stylesheet" type="text/css" href="assets/css/jquery.mCustomScrollbar.css">
+      
   </head>
 
   <body>
@@ -221,8 +220,14 @@ include('../controllers/dbconnect.php');
                                     <!-- Contestants table start -->
                                     <div class="card">
                                         <div class="card-header">
-                                            <h5>Contestants List</h5>
-                                            <span>use class <code>table-hover</code> inside table element</span>
+                                            <div class="col-md-4 ">
+                                            <div class="input-group">
+                                                <span class="input-group-addon consearch" id="search"><i class="icofont icofont-ui-search"></i></span>
+                                                <input type="text" autocomplete="on" class="form-control" placeholder="Search" title="Who are you looking for?" data-toggle="tooltip" aria-haspopup="true" aria-expanded="false" size="30" onkeyup="showResult(this.value)">
+                                                <div id="livesearch"></div>
+                                            </div>
+                                            </div>
+
                                             <div class="card-header-right">
 												<ul class="list-unstyled card-option">
 													<li><i class="fa fa-chevron-left"></i></li>
@@ -231,7 +236,7 @@ include('../controllers/dbconnect.php');
 													<li><i class="fa fa-refresh reload-card"></i></li>
 													<li><i class="fa fa-times close-card"></i></li>
 												</ul>
-											</div>
+                                            </div>
 
                                         </div>
                                         <div class="card-block table-border-style">
@@ -250,6 +255,7 @@ include('../controllers/dbconnect.php');
                                                     </thead>
                                                     <tbody>
                                                     <?php
+
                                                     $sql = "SELECT * FROM users order by date ASC";
                                                     $result = mysqli_query($con, $sql);
                                                     if (mysqli_num_rows($result) > 0) {
@@ -262,24 +268,30 @@ include('../controllers/dbconnect.php');
                                                     echo "<td>" .$row['phone_number']. "</td>";
                                                     echo "<td>" .$row['performance_category']."</td>";
                                                     echo "<td>" .$row['age_category']. "</td>";
-                                                    echo "<td>" .'<button class="btn btn-primary"><i class="icofont icofont-eye-alt"></i></button> <button class="btn btn-danger"><i class="icofont icofont-bin"></i></button>'. "</td>";
+                                                    echo "<td>" .'<button class="btn btn-primary" data-toggle="modal" data-target="#contview"><i class="icofont icofont-eye-alt"></i></button> <button class="btn btn-danger" href=\'contestants.php?delete={$id}\'"><i class="icofont icofont-bin"></i></a>'. "</td>";
                                                     "</tr>";
                                                         }
                                                     }else {
                                                         echo "<td><p>No Contestants Yet!</p></td>";
                                                     }
+                                                    
+                                                    if (isset($_GET['delete'])) {
+
+                                                        $contid = $_GET['delete'];
+                                                        $sql = "DELETE FROM users WHERE id = $contid";
+                                                        $delete_query = mysqli_query($con, $sql);
+                                                    }
+
                                                     ?>
+                                                    
                                                     </tbody>
                                                 </table>
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- Contestants table end -->
                                 </div>
-                                <!-- Page-body end -->
                             </div>
                         </div>
-                        <!-- Main-body end -->
 
                         <div id="styleSelector">
 

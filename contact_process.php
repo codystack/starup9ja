@@ -1,6 +1,6 @@
 <?php
 
-	$to = 'info@dreamersgang.com'; // replace this mail with yours
+	$to = 'info@starup9ja.com'; // replace this mail with yours
 	$firstname = $_POST["fname"];
 	$email= $_POST["email"];
 	$headers = 'MIME-Version: 1.0' . "\r\n";

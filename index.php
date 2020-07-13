@@ -24,17 +24,43 @@
     </div>
     <!-- slider_area_end -->
 
-    <div class="about_area plus_padding">
+    <div class="about_area1 plus_padding">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-12 col-md-12">
                     <div class="about_img wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">
+                        <a href="sponsorship">
                         <img src="https://i.imgur.com/jAOaRt5.jpg" alt="">
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
+    <!-- apply_form_area -->
+    <div class="apply_form_area">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <form action="#" class="apply_form" action="regform_process.php" method="post" id="contactForm" novalidate="novalidate">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="apply_info_text text-center">
+                                    <h4>SPONSORSHIP & PARTNERSHIP</h4>
+                                    <p>STARUP 9JA™ offers corporate sponsorship packages, which provides  companies connecting with  children and youth in this challenging pandemic period. 
+                                    Their support will encourage our talented and skillful individual or group to Keep Dreams Alive.
+                                    while partnering with StarUp9ja in supporting skills &  talent. Sponsorship packages will be designed individually & per sponsor.</p>
+                                    <a href="contact" class="boxed-btn3">TALK TO US</a>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--/ apply_form_area -->
     
 <?php require('./components/aboutarea.php');?>
 <!--

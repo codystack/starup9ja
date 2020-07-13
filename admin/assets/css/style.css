@@ -240,7 +240,7 @@ h6 {
   .card .card-header {
     background-color: transparent;
     border-bottom: none;
-    padding: 25px 25px; }
+    padding-top: 25px; }
     .card .card-header .card-header-left {
       display: inline-block; }
     .card .card-header .card-header-right {
@@ -269,8 +269,7 @@ h6 {
           display: inline-block; }
     .card .card-header span {
       display: block;
-      font-size: 13px;
-      margin-top: 5px; }
+      font-size: 13px; }
     .card .card-header + .card-block,
     .card .card-header + .card-block-big {
       padding-top: 0; }

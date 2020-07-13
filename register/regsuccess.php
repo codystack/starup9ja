@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Register :: Starup 9ja&trade;</title>
+		<title>Register :: StarUp 9ja&trade;</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="shortcut icon" type="image/x-icon" href="https://i.imgur.com/Ek7KKbW.png">
 		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
@@ -21,6 +21,7 @@
                     <h3>Your registration was successful</h3>
                     <center>
                         <p>
+						Please check your mail or spam mail for confirmation mail.<br>
                         For further enquiries send an email to <a href="mailto: info@starupnaija.com">info@starupnaija.com</a> <em><strong>NOTE:</strong></em> Registering more than once leads to automatic disqualification.
                         </p>
                     </center>

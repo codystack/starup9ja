@@ -6,7 +6,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="bradcam_text">
-                        <h3>Sponsorship</h3>
+                        <h3>Sponsors</h3>
                     </div>
                 </div>
             </div>
@@ -26,7 +26,7 @@
                                     <h4>SPONSORSHIP & PARTNERSHIP</h4>
                                     <p>STARUP 9JA™ offers corporate sponsorship packages, which provides  companies connecting with  children and youth in this challenging pandemic period. 
                                     Their support will encourage our talented and skillful individual or group to Keep Dreams Alive.
-                                    while partnering with Starup9ja in supporting skills &  talent. Sponsorship packages will be designed individually & per sponsor.</p>
+                                    while partnering with StarUp9ja in supporting skills &  talent. Sponsorship packages will be designed individually & per sponsor.</p>
                                     <a href="contact" class="boxed-btn3">TALK TO US</a>
                                 </div>
                             </div>

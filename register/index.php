@@ -14,8 +14,11 @@ if (isset($_POST['register'])) {
     $date_of_birth         = $_POST['date_of_birth'];
     $age_category          = $_POST['age_category'];
     $performance_category  = $_POST['performance_category'];
-    $regno                 = rand(1000,9999);
-    $errors                = array();
+	$regno				   = $_FILES['image']['name'];
+	$reg_tpm    		   = $_FILES['image']['tmp_name'];
+	$errors                = array();
+
+	move_uploaded_file($tmp_name, "../uploads/$regno");
 
     // receive all input values from the form
     $first_name              = mysqli_real_escape_string($con, $_POST['first_name']);
@@ -28,9 +31,9 @@ if (isset($_POST['register'])) {
     $date_of_birth           = mysqli_real_escape_string($con, $_POST['date_of_birth']);
     $age_category            = mysqli_real_escape_string($con, $_POST['age_category']);
     $performance_category    = mysqli_real_escape_string($con, $_POST['performance_category']);
-    $regno                   = mysqli_real_escape_string($con, $_POST['regno']);
-  
-  
+	$regno                   = mysqli_real_escape_string($con, $_POST['regno']);
+	
+
     // first check the database to make sure 
     // a user does not already exist with the same username and/or email
     $user_check_query = "SELECT * FROM users WHERE email='$email' LIMIT 1";
@@ -117,7 +120,7 @@ if (isset($_POST['register'])) {
 												<tr>
 													<td class='text-center pdb-2-5x'>
 														<center>
-														<a href='https://starupnaija.com' target='_blank'><img class='email-logo' src='https://i.imgur.com/9rYGpBt.png' /></a>
+														<a href='https://starupnaija.com' target='_blank'><img class='email-logo' src='https://i.imgur.com/9rYGpBt.png' style=\"height: 200px;\"/></a>
 														</center>
 													</td>
 												</tr>
@@ -183,7 +186,7 @@ if (isset($_POST['register'])) {
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<title>Register :: Starup 9ja&trade;</title>
+		<title>Register :: StarUp 9ja&trade;</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="shortcut icon" type="image/x-icon" href="https://i.imgur.com/Ek7KKbW.png">
 		<link rel="stylesheet" href="fonts/material-design-iconic-font/css/material-design-iconic-font.min.css">
@@ -200,24 +203,24 @@ if (isset($_POST['register'])) {
 				<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
 					<h3>STARUP 9JA EMERGENCE CHALLENGE</h3>
 					<div class="form-group">
-						<input type="text" name="first_name" placeholder="First Name" class="form-control">
-						<input type="text" name="last_name" placeholder="Last Name" class="form-control">
+						<input type="text" name="first_name" required placeholder="First Name" class="form-control">
+						<input type="text" name="last_name" required placeholder="Last Name" class="form-control">
 					</div>
 					<div class="form-group">
-						<input type="email" name="email" placeholder="Email" class="form-control">
-						<input type="tel" name="phone_number" placeholder="Phone No" class="form-control">
+						<input type="email" name="email" required placeholder="Email" class="form-control">
+						<input type="tel" name="phone_number" required placeholder="Phone No" class="form-control">
 					</div>
 					<div class="form-wrapper">
-						<select name="gender" id="" class="form-control">
+						<select name="gender" id="" required class="form-control">
 							<option value="" disabled selected>Gender</option>
 							<option value="male">Male</option>
-							<option value="femal">Female</option>
+							<option value="female">Female</option>
 							<option value="other">Other</option>
 						</select>
 						<i class="zmdi zmdi-caret-down" style="font-size: 17px"></i>
 					</div>
 					<div class="form-wrapper">
-						<select name="state_of_origin" id="" class="form-control">
+						<select name="state_of_origin" required id="" class="form-control">
 							<option value="" disabled selected>State of Origin</option>
 							<option value="Abia">Abia</option>
 							<option value="Adamawa">Adamawa</option>
@@ -260,11 +263,11 @@ if (isset($_POST['register'])) {
 						<i class="zmdi zmdi-caret-down" style="font-size: 17px"></i>
 					</div>
 					<div class="form-group">
-						<input type="text" name="address" placeholder="Address" class="form-control">
-						<input type="text" name="date_of_birth" placeholder="DOB (dd/mm/yyyy)" class="form-control">
+						<input type="text" name="address" required placeholder="Address" class="form-control">
+						<input type="text" name="date_of_birth" required placeholder="DOB (dd/mm/yyyy)" class="form-control">
 					</div>
 					<div class="form-wrapper">
-						<select name="age_category" id="" class="form-control">
+						<select name="age_category" required id="" class="form-control">
 							<option value="" disabled selected>Age Category</option>
 							<option value="4-9yrs">4-9yrs <!--₦1,000--></option>
 							<option value="10-15yrs">10-15yrs <!--₦2,000--></option>
@@ -274,7 +277,7 @@ if (isset($_POST['register'])) {
 						<i class="zmdi zmdi-caret-down" style="font-size: 17px"></i>
 					</div>
 					<div class="form-wrapper">
-						<select name="performance_category" id="" class="form-control">
+						<select name="performance_category" required id="" class="form-control">
 							<option value="" disabled selected>Performance Category</option>
 							<option value="Music">Music</option>
 							<option value="Dance">Dance</option>
@@ -283,6 +286,10 @@ if (isset($_POST['register'])) {
 							<option value="Novelty">Novelty Act</option>
 						</select>
 						<i class="zmdi zmdi-caret-down" style="font-size: 17px"></i>
+					</div>
+					<div class="form-wrapper">
+							<label class="custom-file-label">Upload photograph</label>
+							<input type="file" required class="custom-file-input" name="regno" required>
 					</div>
 					<button type="submit" name="register">Register
 						<i class="zmdi zmdi-arrow-right"></i>

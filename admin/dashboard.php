@@ -1,6 +1,7 @@
 <?php
 include('./components/header.php');
 include('../controllers/dbconnect.php');
+
 ?>
                     <div class="pcoded-content">
                         <div class="pcoded-inner-content">

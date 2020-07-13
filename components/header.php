@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Starup 9ja&trade; :: Discovery Talent & Creativity</title>
+    <title>StarUp 9ja&trade; :: Discovery Talent & Creativity</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -54,7 +54,7 @@
                                             <li><a href="about">About</a></li>
                                             <!--<li><a href="talents">Talents</a></li>-->
                                             <li><a href="#">Contestants</a></li>
-                                            <li><a href="sponsorship">Sponsorship</a></li>
+                                            <li><a href="sponsorship">Sponsors</a></li>
                                             <!--
                                             <li><a href="#">pages <i class="ti-angle-down"></i></a>
                                                 <ul class="submenu">
