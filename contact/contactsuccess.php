@@ -21,7 +21,7 @@ header( "refresh:1;url=../about" );
                 </div>
                 <form action="\">
                     <img src="https://i.imgur.com/0XacUTM.png" style="height: 300px;" class="imgsuc">
-                    <h3>Your was message sent successfully</h3>
+                    <h3>Your message was sent successfully</h3>
                     <center>
                         <p>
                         For further enquiries send an email to <a href="mailto: info@starupnaija.com">info@starupnaija.com</a>
