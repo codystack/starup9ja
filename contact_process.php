@@ -1,39 +1,42 @@
 <?php
+$to = "info@starup9ja.com";
+$subject = "New Contact";
 
-	$to = 'info@starup9ja.com'; // replace this mail with yours
-	$name = $_POST["name"];
-	$email= $_POST["email"];
-	$headers = 'MIME-Version: 1.0' . "\r\n";
-	$headers .= "From: " . $email . "\r\n"; // Sender's E-mail
-	$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
+$message = "
+<html>
+<head>
+<title>HTML email</title>
+</head>
+<body>
+<p>This email contains HTML Tags!</p>
+<table>
+<tr>
+	$body .= \"<td style='border:none;'><strong>Name:</strong> $name</td>\";
+	$body .= \"<td style='border:none;'><strong>Email:</strong> $email</td>\";
+	$body .= \"<td style='border:none;'><strong>Email:</strong> $phone</td>\";
+	$body .= \"</tr>\";
+	$body .= \"<tr><td style='border:none;'><strong>Subject:</strong> $csubject</td></tr>\";
+	$body .= \"<tr><td></td></tr>\";
+	$body .= \"<tr><td colspan='2' style='border:none;'>$message</td></tr>\";
+<th>Name: $name</th>
+<th>Email: $email</th>
+</tr>
+<tr>
+<td>John</td>
+<td>Doe</td>
+</tr>
+</table>
+</body>
+</html>
+";
 
-	$message =''.$name.'  '.$email.' '.$phone.' '.$csubject.' '.$message.' ';
+// Always set content-type when sending HTML email
+$headers = "MIME-Version: 1.0" . "\r\n";
+$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
 
-	if (@mail($to, $email, $message, $headers))
-	{
-		echo 'The message has been sent.';
-	}else{
-	echo 'failed';
-	}
+// More headers
+$headers .= "From: " . $email . "\r\n";
 
-    $subject = "New Contact";
-
-	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Contact Form</title></head><body>";
-	$body .= "<table style='width: 100%;'>";
-	$body .= "<thead style='text-align: center;'><tr><td style='border:none;' colspan='2'>";
-	$body .= "<a href='https://starup9ja.com'><img src='https://i.imgur.com/9rYGpBt.png' alt='StarUp Logo' width='190' height='100'></a><br><br>";
-	$body .= "</td></tr></thead><tbody><tr>";
-	$body .= "<td style='border:none;'><strong>Name:</strong> $name</td>";
-	$body .= "<td style='border:none;'><strong>Email:</strong> $email</td>";
-	$body .= "<td style='border:none;'><strong>Email:</strong> $phone</td>";
-	$body .= "</tr>";
-	$body .= "<tr><td style='border:none;'><strong>Subject:</strong> $csubject</td></tr>";
-	$body .= "<tr><td></td></tr>";
-	$body .= "<tr><td colspan='2' style='border:none;'>$message</td></tr>";
-	$body .= "</tbody></table>";
-	$body .= "</body></html>";
-
-    $send = mail($to, $subject, $body, $headers);
-
+mail($to,$subject,$message,$headers);
 ?>
 
