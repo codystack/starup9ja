@@ -68,7 +68,7 @@
               </div>
               <div class="col-6">
                 <div class="form-group">
-                  <input class="form-control" name="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder = 'Subject'>
+                  <input class="form-control" name="csubject" type="text" placeholder = 'Subject'>
                 </div>
               </div>
               <div class="col-12">
