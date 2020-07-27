@@ -141,8 +141,7 @@ if (isset($_POST['register'])) {
 															Welcome! <br />
 															You are receiving this email because you have registered on Starup Naija.
 														</p>
-														<p class='mgb-1x'>Please copy the Reg no. below and keep safe.</p>
-														<strong>Reg No.</strong> $regno
+														<p class='mgb-1x'>You will contacted if you are qualified.</p>
 													</td>
 												</tr>
 												<tr>
@@ -288,10 +287,6 @@ if (isset($_POST['register'])) {
 							<option value="Novelty">Novelty Act</option>
 						</select>
 						<i class="zmdi zmdi-caret-down" style="font-size: 17px"></i>
-					</div>
-					<div class="form-wrapper">
-							<label class="custom-file-label">Upload photograph</label>
-							<input type="file" required class="custom-file-input" name="regno" required>
 					</div>
 					<button type="submit" name="register">Register
 						<i class="zmdi zmdi-arrow-right"></i>
