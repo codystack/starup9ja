@@ -1,5 +1,6 @@
 <?php 
-  session_start(); 
+  session_start();
+include("../controllers/dbconnect.php");
 
   if (!isset($_SESSION['username'])) {
   	$_SESSION['msg'] = "You must log in first";
@@ -10,17 +11,6 @@
   	unset($_SESSION['username']);
   	header("location: login");
   }
-?>
-<?php
-    include("../controllers/dbconnect.php");
-
-    if (!isset($_SESSION['username'])){
-        header("Location: login");
-    }
-?>
-<?php
-include('../controllers/dbconnect.php');
-include('./components/modal.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -122,13 +112,13 @@ include('./components/modal.php');
                                    </li>
                                    
                                    <li>
-                                       <a href="auth-lock-screen.html">
+                                       <a href="#!">
                                            <i class="ti-lock"></i> Lock Screen
                                        </a>
                                    </li>
                                    <li>
-                                       <a href="index.php?logout='1'">
-                                       <i class="ti-layout-sidebar-left"></i> Logout
+                                       <a href="logout">
+                                       <i class="ti-layout-sidebar-left"></i> Log Out
                                    </a>
                                    </li>
                                </ul>
@@ -181,9 +171,9 @@ include('./components/modal.php');
                                     </a>
                                 </li>
                                 <li class="">
-                                    <a href="index.php?logout='1'">
+                                    <a href="logout">
                                         <span class="pcoded-micon"><i class="ti-power-off"></i><b>D</b></span>
-                                        <span class="pcoded-mtext" data-i18n="nav.dash.main">Logout</span>
+                                        <span class="pcoded-mtext" data-i18n="nav.dash.main">Log Out</span>
                                         <span class="pcoded-mcaret"></span>
                                     </a>
                                 </li>
@@ -241,7 +231,7 @@ include('./components/modal.php');
                                         </div>
                                         <div class="card-block table-border-style">
                                             <div class="table-responsive">
-                                                <table class="table table-hover">
+                                                <table class="table table-hover" id="datatables-basic">
                                                     <thead>
                                                     <tr>
                                                         <th>SN</th>
@@ -261,27 +251,34 @@ include('./components/modal.php');
                                                     if (mysqli_num_rows($result) > 0) {
                                                         // output data of each row
                                                         while($row = mysqli_fetch_assoc($result)) {
+                                                            $id                         = $row['id'];
+                                                            $first_name                 = $row['first_name'];
+                                                            $last_name                  = $row['last_name'];
+                                                            $phone_number               = $row['phone_number'];
+                                                            $performance_category       = $row['performance_category'];
+                                                            $age_category               = $row['age_category'];
+
+
                                                     echo "<tr>";
-                                                    echo "<th>" .$row['id']. "</th>";
-                                                    echo "<td>" .$row['first_name']. "</td>";
-                                                    echo "<td>" .$row['last_name']. "</td>";
-                                                    echo "<td>" .$row['phone_number']. "</td>";
-                                                    echo "<td>" .$row['performance_category']."</td>";
-                                                    echo "<td>" .$row['age_category']. "</td>";
-                                                    echo "<td>" .'<button class="btn btn-primary" data-toggle="modal" data-target="#contview"><i class="icofont icofont-eye-alt"></i></button> <button class="btn btn-danger" href=\'contestants.php?delete={$id}\'"><i class="icofont icofont-bin"></i></a>'. "</td>";
+                                                    echo "<th>" .$id. "</th>";
+                                                    echo "<td>" .$first_name. "</td>";
+                                                    echo "<td>" .$last_name. "</td>";
+                                                    echo "<td>" .$phone_number. "</td>";
+                                                    echo "<td>" .$performance_category."</td>";
+                                                    echo "<td>" .$age_category. "</td>";
+                                                    echo "<td>" ."<a class=\"btn btn-primary\" href=\"viewusers.php?id=$id\"><i class=\"icofont icofont-eye-alt\"></i></a>"."</td>";
                                                     "</tr>";
                                                         }
                                                     }else {
                                                         echo "<td><p>No Contestants Yet!</p></td>";
                                                     }
                                                     
-                                                    if (isset($_GET['delete'])) {
-
-                                                        $contid = $_GET['delete'];
-                                                        $sql = "DELETE FROM users WHERE id = $contid";
-                                                        $delete_query = mysqli_query($con, $sql);
+                                                    if (isset($_GET['deleteid'])){
+                                                        $del_selected = mysqli_query($con, "DELETE FROM userss WHERE id = '".$_GET['deleteid']."'");
+                                                        mysqli_query($con,"ALTER TABLE users AUTO_INCREMENT = 1");
+                                                        echo "<meta http-equiv=\"refresh\" content=\"0;URL=contestants\">";
+                                                        exit();
                                                     }
-
                                                     ?>
                                                     
                                                     </tbody>

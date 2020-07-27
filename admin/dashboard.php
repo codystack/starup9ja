@@ -68,19 +68,27 @@ include('../controllers/dbconnect.php');
                                                                             <th>Action</th>
                                                                         </tr>
                                                                         <?php
-                                                                        $sql = "SELECT * FROM users order by date ASC";
+                                                                        $sql = "SELECT * FROM users order by date DESC";
                                                                         $result = mysqli_query($con, $sql);
                                                                         if (mysqli_num_rows($result) > 0) {
                                                                             // output data of each row
                                                                             while($row = mysqli_fetch_assoc($result)) {
+                                                                                $id                         = $row['id'];
+                                                                                $first_name                 = $row['first_name'];
+                                                                                $last_name                  = $row['last_name'];
+                                                                                $phone_number               = $row['phone_number'];
+                                                                                $performance_category       = $row['performance_category'];
+                                                                                $age_category               = $row['age_category'];
+
+
                                                                         echo "<tr>";
-                                                                        echo "<th>" .$row['id']. "</th>";
-                                                                        echo "<td>" .$row['first_name']. "</td>";
-                                                                        echo "<td>" .$row['last_name']. "</td>";
-                                                                        echo "<td>" .$row['phone_number']. "</td>";
-                                                                        echo "<td>" .$row['performance_category']."</td>";
-                                                                        echo "<td>" .$row['age_category']. "</td>";
-                                                                        echo "<td>" .'<button class="btn btn-primary"><i class="icofont icofont-eye-alt"></i></button> <button class="btn btn-danger"><i class="icofont icofont-bin"></i></button>'. "</td>";
+                                                                        echo "<th>" .$id. "</th>";
+                                                                        echo "<td>" .$first_name. "</td>";
+                                                                        echo "<td>" .$last_name. "</td>";
+                                                                        echo "<td>" .$phone_number. "</td>";
+                                                                        echo "<td>" .$performance_category."</td>";
+                                                                        echo "<td>" .$age_category. "</td>";
+                                                                        echo "<td>" ."<a class=\"btn btn-primary\" href=\"viewusers.php?id=$id\"><i class=\"icofont icofont-eye-alt\"></i></a>". "</td>";
                                                                         "</tr>";
                                                                             }
                                                                         }else {
@@ -90,7 +98,7 @@ include('../controllers/dbconnect.php');
                                                                     </table>
                                                                 </div>
                                                                 <div class="text-center">
-                                                                    <button class="btn btn-outline-primary btn-round btn-sm">Load More</button>
+                                                                    <button class="btn btn-outline-primary btn-round btn-sm" onclick="window.location.href='contestants';">View All</button>
                                                                 </div>
                                                             </div>
                                                         </div>

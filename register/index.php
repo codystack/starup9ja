@@ -18,7 +18,9 @@ if (isset($_POST['register'])) {
 	$reg_tpm    		   = $_FILES['image']['tmp_name'];
 	$errors                = array();
 
-	move_uploaded_file($tmp_name, "../uploads/$regno");
+
+	$target = "../uploads/".basename($regno);
+	move_uploaded_file($_FILES['image']['tmp_name'], $location);
 
     // receive all input values from the form
     $first_name              = mysqli_real_escape_string($con, $_POST['first_name']);
@@ -48,7 +50,7 @@ if (isset($_POST['register'])) {
     }
   
     // Finally, register user if there are no errors in the form
-    if (count($errors) == 0) {
+    if (count($errors) === 0) {
   
         $query = "INSERT INTO users (first_name, last_name, email, phone_number, state_of_origin, address, date_of_birth, age_category, performance_category, regno, gender) 
 				  VALUES('$first_name', '$last_name', '$email', '$phone_number', '$state_of_origin', '$address', '$date_of_birth', '$age_category', '$performance_category', '$regno', '$gender')";
@@ -200,7 +202,7 @@ if (isset($_POST['register'])) {
 				<div class="image-holder">
 					<img src="images/registration-form-1.jpg" alt="">
 				</div>
-				<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST">
+				<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST" enctype="multipart/form-data">
 					<h3>STARUP 9JA EMERGENCE CHALLENGE</h3>
 					<div class="form-group">
 						<input type="text" name="first_name" required placeholder="First Name" class="form-control">
@@ -213,9 +215,9 @@ if (isset($_POST['register'])) {
 					<div class="form-wrapper">
 						<select name="gender" id="" required class="form-control">
 							<option value="" disabled selected>Gender</option>
-							<option value="male">Male</option>
-							<option value="female">Female</option>
-							<option value="other">Other</option>
+							<option value="Male">Male</option>
+							<option value="Female">Female</option>
+							<option value="Other">Other</option>
 						</select>
 						<i class="zmdi zmdi-caret-down" style="font-size: 17px"></i>
 					</div>

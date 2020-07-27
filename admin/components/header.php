@@ -1,22 +1,14 @@
-<?php 
-  session_start(); 
-
-  if (!isset($_SESSION['username'])) {
-  	$_SESSION['msg'] = "You must log in first";
-  	header('location: login');
-  }
-  if (isset($_GET['logout'])) {
-  	session_destroy();
-  	unset($_SESSION['username']);
-  	header("location: login");
-  }
-?>
 <?php
-    include("../controllers/dbconnect.php");
-
-    if (!isset($_SESSION['username'])){
-        header("Location: login");
-    }
+session_start();
+if (!isset($_SESSION['username'])) {
+    $_SESSION['msg'] = "You must log in first";
+    header('location: login');
+}
+if (isset($_GET['logout'])) {
+    session_destroy();
+    unset($_SESSION['username']);
+    header("location: login");
+}
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -125,8 +117,8 @@
                                        </a>
                                    </li>
                                    <li>
-                                       <a href="index.php?logout='1'">
-                                       <i class="ti-layout-sidebar-left"></i> Logout
+                                       <a href="logout">
+                                       <i class="ti-layout-sidebar-left"></i> Log Out
                                    </a>
                                    </li>
                                </ul>
@@ -179,9 +171,9 @@
                                     </a>
                                 </li>
                                 <li class="">
-                                    <a href="index.php?logout='1'">
+                                    <a href="logout">
                                         <span class="pcoded-micon"><i class="ti-power-off"></i><b>D</b></span>
-                                        <span class="pcoded-mtext" data-i18n="nav.dash.main">Logout</span>
+                                        <span class="pcoded-mtext" data-i18n="nav.dash.main">Log Out</span>
                                         <span class="pcoded-mcaret"></span>
                                     </a>
                                 </li>
