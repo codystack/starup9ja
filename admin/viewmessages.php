@@ -46,6 +46,7 @@ while($row = mysqli_fetch_array($results)) {
                                                 <div class="form-group col-md-6">
                                                     <label><strong>Brand Name:</strong></label><br>
                                                     <?php echo $brandName; ?>
+                                                </div>
                                                 <div class="form-group col-md-6">
                                                     <label><strong>Email:</strong></label><br>
                                                     <?php echo $email; ?>
