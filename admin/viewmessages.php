@@ -40,23 +40,22 @@ while($row = mysqli_fetch_array($results)) {
                                         <form method="post" action="">
                                             <div class="form-group row">
                                                 <div class="form-group col-md-6">
-                                                    <label>Full Name</label>
-                                                    <input type="text" class="form-control" name="first_name" value="<?php echo $fullName; ?>" readonly>
+                                                    <label><strong>Full Name:</strong></label><br>
+                                                    <?php echo $fullName; ?>
                                                 </div>
                                                 <div class="form-group col-md-6">
-                                                    <label>Brand Name</label>
-                                                    <input type="text" class="form-control" name="last_name" value="<?php echo $brandName; ?>" readonly>
+                                                    <label><strong>Brand Name:</strong></label><br>
+                                                    <?php echo $brandName; ?>
+                                                <div class="form-group col-md-6">
+                                                    <label><strong>Email:</strong></label><br>
+                                                    <?php echo $email; ?>
                                                 </div>
                                                 <div class="form-group col-md-6">
-                                                    <label>Email</label>
-                                                    <input type="email" class="form-control" name="last_name" value="<?php echo $email; ?>" readonly>
-                                                </div>
-                                                <div class="form-group col-md-6">
-                                                    <label>Phone Number</label>
-                                                    <input type="tel" class="form-control" name="phone_number" value="<?php echo $phoneNum; ?>" readonly>
+                                                    <label><strong>Phone Number:</strong></label><br>
+                                                    <?php echo $phoneNum; ?>
                                                 </div>
                                                 <div class="form-group col-md-12">
-                                                    <label>Comment:</label><br>
+                                                    <label><strong>Comment:</strong></label><br>
                                                     <?php echo $comment; ?>
                                                 </div>
                                                 <div class="form-group col-md-12 text-center">
