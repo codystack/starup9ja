@@ -1,6 +1,6 @@
 <?php
 
-	$to = 'info@starup9ja.com'; 
+	$to = 'info@starup9ja.com';
 	$headers = 'MIME-Version: 1.0' . "\r\n";
 	$headers .= "From: " . $email . "\r\n"; // Sender's E-mail
 	$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";

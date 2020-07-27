@@ -150,6 +150,13 @@ if (isset($_GET['logout'])) {
                                     </a>
                                 </li>
                                 <li class="">
+                                    <a href="messages">
+                                        <span class="pcoded-micon"><i class="ti-email"></i><b>D</b></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.dash.main">Messages</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class="">
                                     <a href="#!">
                                         <span class="pcoded-micon"><i class="ti-folder"></i><b>D</b></span>
                                         <span class="pcoded-mtext" data-i18n="nav.dash.main">Files</span>

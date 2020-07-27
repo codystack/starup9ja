@@ -150,6 +150,13 @@ include("../controllers/dbconnect.php");
                                     </a>
                                 </li>
                                 <li class="">
+                                    <a href="messages">
+                                        <span class="pcoded-micon"><i class="ti-email"></i><b>D</b></span>
+                                        <span class="pcoded-mtext" data-i18n="nav.dash.main">Messages</span>
+                                        <span class="pcoded-mcaret"></span>
+                                    </a>
+                                </li>
+                                <li class="">
                                     <a href="#!">
                                         <span class="pcoded-micon"><i class="ti-folder"></i><b>D</b></span>
                                         <span class="pcoded-mtext" data-i18n="nav.dash.main">Files</span>
@@ -239,7 +246,7 @@ include("../controllers/dbconnect.php");
                                                         <th>Last Name</th>
                                                         <th>Phone Number</th>
                                                         <th>Category</th>
-                                                        <th>Age Category</th>
+                                                        <th>Registration Date</th>
                                                         <th>Actions</th>
                                                     </tr>
                                                     </thead>
@@ -257,6 +264,7 @@ include("../controllers/dbconnect.php");
                                                             $phone_number               = $row['phone_number'];
                                                             $performance_category       = $row['performance_category'];
                                                             $age_category               = $row['age_category'];
+                                                            $date                       = $row['date'];
 
 
                                                     echo "<tr>";
@@ -265,7 +273,7 @@ include("../controllers/dbconnect.php");
                                                     echo "<td>" .$last_name. "</td>";
                                                     echo "<td>" .$phone_number. "</td>";
                                                     echo "<td>" .$performance_category."</td>";
-                                                    echo "<td>" .$age_category. "</td>";
+                                                    echo "<td>" .date("M, d, Y", strtotime($date)). "</td>";
                                                     echo "<td>" ."<a class=\"btn btn-primary\" href=\"viewusers.php?id=$id\"><i class=\"icofont icofont-eye-alt\"></i></a>"."</td>";
                                                     "</tr>";
                                                         }

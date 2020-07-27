@@ -1,6 +1,9 @@
-<?php require('./components/header.php');?>
-  
-      <!-- bradcam_area  -->
+<?php
+require('./components/header.php');
+include ('./controllers/dbconnect.php');
+include ('./controllers/auth-controller.php');
+?>
+
       <div class="bradcam_area bradcam_bg_3">
         <div class="container">
             <div class="row">
@@ -49,7 +52,7 @@
           <h2 class="contact-title">Get in Touch</h2>
         </div>
         <div class="col-lg-8">
-          <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+          <form class="form-contact contact_form" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST" novalidate="novalidate">
             <div class="row">
               <div class="col-sm-6">
                 <div class="form-group">
@@ -79,7 +82,7 @@
               </div>
             </div>
             <div class="form-group mt-3">
-              <button type="submit" class="button button-contactForm btn_4 boxed-btn">Send Message</button>
+              <button type="submit" class="button button-contactForm btn_4 boxed-btn" name="message_btn">Send Message</button>
             </div>
           </form>
         </div>

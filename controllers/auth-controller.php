@@ -173,5 +173,46 @@ if (isset($_POST['register'])) {
 //Register User End
 
 
+//Register User Start
+if (isset($_POST['message_btn'])) {
+
+    $fullname        = $_POST['fullname'];
+    $email           = $_POST['email'];
+    $tel             = $_POST['tel'];
+    $comment         = $_POST['comment'];
+    $subject         = $_POST['subject'];
+    $error           = array();
+    $errors = '<div style="margin-top: 50px; margin-left: 50px; margin-right: 50px;"><div class="alert alert-danger alert-center alert-dismissible fade show">User Already Exist!<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div></div>';
+    $errorss = '<div style="margin-top: 50px; margin-left: 50px; margin-right: 50px;"><div class="alert alert-danger alert-center alert-dismissible fade show">Username Is Taken!<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button></div></div>';
+
+
+    $fullname       = mysqli_real_escape_string($con, $fullname);
+    $email          = mysqli_real_escape_string($con, $email);
+    $tel            = mysqli_real_escape_string($con, $tel);
+    $comment        = mysqli_real_escape_string($con, $comment);
+    $subject        = mysqli_real_escape_string($con, $subject);
+
+
+    $user_check_query = "SELECT * FROM messages WHERE subject='$subject' LIMIT 1";
+    $result = mysqli_query($con, $user_check_query);
+    $user = mysqli_fetch_assoc($result);
+
+    if ($user) { // if user exists
+        if ($user['subject'] === $subject) {
+            echo $errors;
+        }
+    }else{ $query = "INSERT INTO messages (fullname, email, tel, subject, comment) 
+              VALUES('$fullname', '$email', '$tel', '$subject', '$comment')";
+        mysqli_query($con, $query);
+        $_SESSION['email'] = $email;
+        $_SESSION['success'] = "Location: reg-success";
+        exit();
+    }
+
+}
+//Register User End
+
+
+
 
 ?>

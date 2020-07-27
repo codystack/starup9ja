@@ -1716,7 +1716,7 @@ img.homeadvert {
 
 /* line 1, ../../Arafath/CL/December/234. Finance/HTML/scss/_about.scss */
 .about_area {
-  margin-bottom: 150px;
+  margin-bottom: 10px;
 }
 
 .about_area1 {
@@ -2936,7 +2936,7 @@ p #amount {
 
 /* line 10, ../../Arafath/CL/December/234. Finance/HTML/scss/_footer.scss */
 .footer .footer_top {
-  padding-top: 145px;
+  padding-top: 30px;
   padding-bottom: 25px;
 }
 
@@ -3619,16 +3619,16 @@ p #amount {
 
 /* line 1, ../../Arafath/CL/December/234. Finance/HTML/scss/_works.scss */
 .works_area {
-  padding-top: 150px;
-  padding-bottom: 120px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   background: #F5FBFF;
 }
 
 @media (max-width: 767px) {
   /* line 1, ../../Arafath/CL/December/234. Finance/HTML/scss/_works.scss */
   .works_area {
-    padding-top: 60px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 }
 
