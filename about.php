@@ -14,70 +14,260 @@
     </div>
     <!--/ bradcam_area  -->
 
-    
+
 <?php require('./components/aboutarea.php');?>
 
     <div class="works_area">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <div class="section_title text-center mb-90">
+                    <div class="section_title text-center mb-3">
                         <span class="wow lightSpeedIn" data-wow-duration="1s" data-wow-delay=".1s"></span>
                         <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">Vision/Mission</h3>
                         <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">A world class organisation dedicated to the development of youth in the performing and visual arts to fulfil their life quest.</p>
                         <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">To support and enhance talented ones and motivated youth of our communities and to provide an appropriate, competitive forum for the displaying of their talents in the performing and visual arts.
                             To provide a credible platform for expression and a celebration of talent in youth and children.</p>
-                        
+
                         <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">Core Values</h3>
                         <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">Creativity, excellence, fun, integrity and professionalism.</p>
-                        <h3 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s"></h3>
-                        <p class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
-                            <strong>Genre↓</strong><br>
 
-                            Reality Talent Contest<br>
-
-                            <strong>MUSIC↓</strong><br>
-                            All Genres of Music<br>
-
-                            <strong>DANCE↓</strong><br>
-                            All types of Dance<br>
-
-                            <strong>COMEDY↓</strong><br>
-                            All Genres of Comedy<br>
-
-                            <strong>POETRY↓</strong><br>
-                            All forms of poetry<br>
-
-                            <strong>NOVELTY ACT↓</strong><br>
-                            unusual and entertaining <br>
-
-                            <strong>AGE & PERFORMERS CATEGORY↓</strong><br>
-                            4 - 28yrs Raw Talent | Personal  Performer | Group Performers<br>
-
-                            <strong>WINNING CATEGORY↓</strong><br>
-                            4 - 9yrs<br> <strong>Winner</strong><br> 1 Year Management | Endorsement Deal | Branding | Tour | Marketing | Sponsorship<br>
-
-                            <strong>THREE FINALISTS</strong><br>
-                            Cinematic Movie Role<br>
-                            10 -15yrs<br>
-                            <strong>Winner</strong><br> 1 Year Management | Endorsement Deal | Branding | Tour | Marketing | Sponsorship<br>
-
-                            <strong>THREE FINALISTS</strong><br>
-                            Cinematic Movie Role
-                            16 - 21yrs<br>
-                            <strong>Winner</strong><br> 1 Year Management | Endorsement Deal | Branding | Tour | Marketing | Sponsorship<br>
-
-                            <strong>THREE FINALISTS</strong><br>
-                            Cinematic Movie Role
-                            22 - 28yrs
-                            <strong>Winner</strong><br> 1 Year Management | Endorsement Deal | Branding | Tour | Marketing | Sponsorship<br>
-
-                            <strong>THREE FINALISTS</strong><br>
-                            Cinematic Movie Role<br>
-
-                            <strong>4 WINNERS | 12 FINALISTS |  MILLIONS CASH PRIZE AND BENEFIT</strong></p>
                     </div>
                 </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row" style="padding-top: 60px; padding-bottom: 60px">
+            <div class="col-lg-6">
+                <!-- accordion_area_start  -->
+                <div class="faq_ask pl-68">
+                    <!--<h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInRight;">Submittion of online video audition FAQ's</h4>-->
+                    <div id="accordion">
+                        <div class="card wow fadeInUp" data-wow-duration="1.1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1.1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                            <div class="card-header" id="headingOnee">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOnee" aria-expanded="true" aria-controls="collapseOnee">
+                                        GENRE
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseOnee" class="collapse show" aria-labelledby="headingOnee" data-parent="#accordion">
+                                <div class="card-body">
+                                    Reality Talent Contest
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.4s; animation-name: fadeInUp;">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                                        MUSIC
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    All Genres of Music
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card wow fadeInUp" data-wow-duration="1.3s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 1.3s; animation-delay: 0.5s; animation-name: fadeInUp;">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        DANCE
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    All types of Dance
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.6s; animation-name: fadeInUp;">
+                            <div class="card-header" id="headingThree4">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree4" aria-expanded="false" aria-controls="collapseThree4">
+                                        COMEDY
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree4" class="collapse" aria-labelledby="headingThree4" data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    All Genres of Comedy
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.6s; animation-name: fadeInUp;">
+                            <div class="card-header" id="headingThree45">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree45" aria-expanded="false" aria-controls="collapseThree4">
+                                        POETRY
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree45" class="collapse" aria-labelledby="headingThree45" data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    All forms of poetry
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.6s; animation-name: fadeInUp;">
+                            <div class="card-header" id="headingThree44">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree44" aria-expanded="false" aria-controls="collapseThree4">
+                                        NOVELTY ACT
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree44" class="collapse" aria-labelledby="headingThree44" data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    Unusual and Entertaining
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card wow fadeInUp" data-wow-duration="1.1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1.1s; animation-delay: 0.3s; animation-name: fadeInUp;">
+                            <div class="card-header" id="headingOnees">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOnees" aria-expanded="true" aria-controls="collapseOnees">
+                                        AGE & PERFORMERS CATEGORY
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseOnees" class="collapse show" aria-labelledby="headingOnees" data-parent="#accordion">
+                                <div class="card-body">
+                                    4 - 28yrs Raw Talent | Personal Performer | Group Performers
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.4s; animation-name: fadeInUp;">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOnes" aria-expanded="false" aria-controls="collapseOnes">
+                                        WINNING CATEGORY
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseOnes" class="collapse" aria-labelledby="headingOnes" data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    4 - 9yrs
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/ accordion_area_end  -->
+            </div>
+            <div class="col-lg-6">
+                <!-- accordion_area_start  -->
+                <div class="faq_ask pl-68">
+                    <!--<h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInRight;">Submittion of online video audition FAQ's</h4>-->
+                    <div id="accordion">
+                        <div class="card wow fadeInUp" data-wow-duration="1.3s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 1.3s; animation-delay: 0.5s; animation-name: fadeInUp;">
+                            <div class="card-header" id="headingThrees">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThrees" aria-expanded="false" aria-controls="collapseThrees">
+                                        WINNER
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThrees" class="collapse" aria-labelledby="headingThrees" data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    1 Year Management | Endorsement Deal | Branding | Tour | Marketing | Sponsorship
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.6s; animation-name: fadeInUp;">
+                            <div class="card-header" id="headingThree4s">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree4s" aria-expanded="false" aria-controls="collapseThree4s">
+                                        THREE FINALISTS
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree4s" class="collapse" aria-labelledby="headingThree4s" data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    Cinematic Movie Role
+                                    10 -15yrs
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.6s; animation-name: fadeInUp;">
+                            <div class="card-header" id="headingThree45s">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree45s" aria-expanded="false" aria-controls="collapseThree4">
+                                        WINNER
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree45s" class="collapse" aria-labelledby="headingThree45s" data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    1 Year Management | Endorsement Deal | Branding | Tour | Marketing | Sponsorship
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.6s; animation-name: fadeInUp;">
+                            <div class="card-header" id="headingThree44">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree44s" aria-expanded="false" aria-controls="collapseThree4">
+                                        THREE FINALISTS
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree44s" class="collapse" aria-labelledby="headingThree44s" data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    Cinematic Movie Role 22 - 28yrs
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.6s; animation-name: fadeInUp;">
+                            <div class="card-header" id="headingThree44">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree44ss" aria-expanded="false" aria-controls="collapseThree4">
+                                        WINNER
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree44ss" class="collapse" aria-labelledby="headingThree44ss" data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    1 Year Management | Endorsement Deal | Branding | Tour | Marketing | Sponsorship
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.6s; animation-name: fadeInUp;">
+                            <div class="card-header" id="headingThree44">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree44ssx" aria-expanded="false" aria-controls="collapseThree4">
+                                        THREE FINALISTS
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree44ssx" class="collapse" aria-labelledby="headingThree44ssx" data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    Cinematic Movie Role
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.6s; animation-name: fadeInUp;">
+                            <div class="card-header" id="headingThree44">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree44ssx" aria-expanded="false" aria-controls="collapseThree4">
+                                        4 WINNERS
+                                    </button>
+                                </h5>
+                            </div>
+                            <div id="collapseThree44ssx" class="collapse" aria-labelledby="headingThree44ssx" data-parent="#accordion" style="">
+                                <div class="card-body">
+                                    4 WINNERS | 12 FINALISTS | MILLIONS CASH PRIZE AND BENEFIT
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--/ accordion_area_end  -->
             </div>
         </div>
     </div>
