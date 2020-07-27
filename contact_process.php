@@ -1,29 +1,20 @@
 <?php
 
-	$to = 'info@starup9ja.com'; // replace this mail with yours
-	$name = $_POST["name"];
-	$email= $_POST["email"];
+	$to = 'info@starup9ja.com'; 
 	$headers = 'MIME-Version: 1.0' . "\r\n";
 	$headers .= "From: " . $email . "\r\n"; // Sender's E-mail
 	$headers .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-
-	$message =''.$name.'  '.$email.' '.$phone.' '.$csubject.' '.$message.' ';
-
-	if (@mail($to, $email, $message, $headers))
-	{
-		header('location: contactsuccess');
-	}
 
     $subject = "New Contact";
 
 	$body = "<!DOCTYPE html><html lang='en'><head><meta charset='UTF-8'><title>Contact Form</title></head><body>";
 	$body .= "<table style='width: 100%;'>";
 	$body .= "<thead style='text-align: center;'><tr><td style='border:none;' colspan='2'>";
-	$body .= "<a href='https://starup9ja.com'><img src='https://i.imgur.com/9rYGpBt.png' alt='StarUp Logo' width='190' height='100'></a><br><br>";
+	$body .= "<a href='https://starup9ja.com'><img src='https://i.imgur.com/9rYGpBt.png' alt='StarUp Logo' width='190' height='110'></a><br><br>";
 	$body .= "</td></tr></thead><tbody><tr>";
 	$body .= "<td style='border:none;'><strong>Name:</strong> $name</td>";
 	$body .= "<td style='border:none;'><strong>Email:</strong> $email</td>";
-	$body .= "<td style='border:none;'><strong>Email:</strong> $phone</td>";
+	$body .= "<td style='border:none;'><strong>Phone:</strong> $phone</td>";
 	$body .= "</tr>";
 	$body .= "<tr><td style='border:none;'><strong>Subject:</strong> $csubject</td></tr>";
 	$body .= "<tr><td></td></tr>";
