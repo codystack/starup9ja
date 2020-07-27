@@ -12,7 +12,6 @@
             </div>
         </div>
     </div>
-    <!--/ bradcam_area  -->
   <!-- ================ contact section start ================= -->
   <section class="contact-section section_padding">
     <div class="container">
@@ -54,28 +53,28 @@
             <div class="row">
               <div class="col-sm-6">
                 <div class="form-group">
-                  <input class="form-control" name="name" id="name" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Full name'" placeholder = 'Full name'>
+                  <input class="form-control" name="name" type="text" placeholder = 'Full name'>
                 </div>
               </div>
               <div class="col-sm-6">
                 <div class="form-group">
-                  <input class="form-control" name="email" id="email" type="email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" placeholder = 'Email address'>
+                  <input class="form-control" name="email" type="email" placeholder = 'Email address'>
                 </div>
               </div>
               <div class="col-6">
                 <div class="form-group">
-                  <input class="form-control" name="phone" id="phone" type="tel" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Phone number'" placeholder = 'Phone number'>
+                  <input class="form-control" name="phone" type="tel" placeholder = 'Phone number'>
                 </div>
               </div>
               <div class="col-6">
                 <div class="form-group">
-                  <input class="form-control" name="subject" id="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder = 'Subject'>
+                  <input class="form-control" name="subject" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'" placeholder = 'Subject'>
                 </div>
               </div>
               <div class="col-12">
                 <div class="form-group">
                   
-                    <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'" placeholder = 'Enter Message'></textarea>
+                    <textarea class="form-control w-100" name="message" cols="30" rows="9" placeholder = 'Enter Message'></textarea>
                 </div>
               </div>
             </div>
