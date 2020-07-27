@@ -254,12 +254,12 @@
                         <div class="card wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.6s; animation-name: fadeInUp;">
                             <div class="card-header" id="headingThree44">
                                 <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree44ssx" aria-expanded="false" aria-controls="collapseThree4">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree44ssxs" aria-expanded="false" aria-controls="collapseThree4">
                                         4 WINNERS
                                     </button>
                                 </h5>
                             </div>
-                            <div id="collapseThree44ssx" class="collapse" aria-labelledby="headingThree44ssx" data-parent="#accordion" style="">
+                            <div id="collapseThree44ssxs" class="collapse" aria-labelledby="headingThree44ssxs" data-parent="#accordion" style="">
                                 <div class="card-body">
                                     4 WINNERS | 12 FINALISTS | MILLIONS CASH PRIZE AND BENEFIT
                                 </div>
