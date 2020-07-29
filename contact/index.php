@@ -62,7 +62,7 @@ if (isset($_POST['message'])) {
                         <input type="tel" name="phoneNum" required placeholder="Phone No" class="form-control">
                     </div>
 					<div class="form-wrapper">
-						<textarea name="comment" required placeholder="Drop you message here" class="form-control"></textarea>
+						<textarea name="comment" required placeholder="Drop your message here" class="form-control"></textarea>
 					</div>
 					<button type="submit" name="message">Send Message
 						<i class="zmdi zmdi-arrow-right"></i>
