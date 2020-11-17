@@ -45,7 +45,7 @@ if (isset($_POST['message'])) {
 		<div class="wrapper" style="background-image: url('images/bg-registration-form-1.jpg');">
 			<div class="inner">
 				<div class="image-holder">
-					<img src="images/registration-form-1.jpg" alt="">
+					<a href="\"><img src="images/registration-form-1.jpg" alt=""></a>
 				</div>
 				<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST" enctype="multipart/form-data">
 					<h3>CONTACT US</h3>
