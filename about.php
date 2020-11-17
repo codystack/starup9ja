@@ -139,7 +139,7 @@
 
                             <div id="collapseOnees" class="collapse show" aria-labelledby="headingOnees" data-parent="#accordion">
                                 <div class="card-body">
-                                    4 - 28yrs, Raw Talent | Personal Performer | Group Performers
+                                    4 - 28yrs | Raw Talent | Personal Performer | Group Performers
                                 </div>
                             </div>
                         </div>
