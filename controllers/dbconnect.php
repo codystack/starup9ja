@@ -1,6 +1,6 @@
 <?php
 
-$con = mysqli_connect("localhost","webify","Webify2020!!","starup9ja");
+$con = mysqli_connect("localhost","dreamers_starup","Webify2020!!","dreamers_webify");
 
 // Check connection
 if (mysqli_connect_errno()) {
