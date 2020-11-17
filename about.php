@@ -38,7 +38,7 @@
     </div>
     <div class="container">
         <div class="row" style="padding-top: 60px; padding-bottom: 60px">
-            <div class="col-lg-6">
+            <div class="col-lg-12">
                 <!-- accordion_area_start  -->
                 <div class="faq_ask pl-68">
                     <!--<h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInRight;">Submittion of online video audition FAQ's</h4>-->
@@ -139,135 +139,12 @@
 
                             <div id="collapseOnees" class="collapse show" aria-labelledby="headingOnees" data-parent="#accordion">
                                 <div class="card-body">
-                                    4 - 28yrs Raw Talent | Personal Performer | Group Performers
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card wow fadeInUp" data-wow-duration="1.2s" data-wow-delay=".4s" style="visibility: visible; animation-duration: 1.2s; animation-delay: 0.4s; animation-name: fadeInUp;">
-                            <div class="card-header" id="headingOne">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseOnes" aria-expanded="false" aria-controls="collapseOnes">
-                                        WINNING CATEGORY
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapseOnes" class="collapse" aria-labelledby="headingOnes" data-parent="#accordion" style="">
-                                <div class="card-body">
-                                    4 - 9yrs
+                                    4 - 28yrs, Raw Talent | Personal Performer | Group Performers
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--/ accordion_area_end  -->
-            </div>
-            <div class="col-lg-6">
-                <!-- accordion_area_start  -->
-                <div class="faq_ask pl-68">
-                    <!--<h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s" style="visibility: visible; animation-duration: 1s; animation-delay: 0.3s; animation-name: fadeInRight;">Submittion of online video audition FAQ's</h4>-->
-                    <div id="accordion">
-                        <div class="card wow fadeInUp" data-wow-duration="1.3s" data-wow-delay=".5s" style="visibility: visible; animation-duration: 1.3s; animation-delay: 0.5s; animation-name: fadeInUp;">
-                            <div class="card-header" id="headingThrees">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThrees" aria-expanded="false" aria-controls="collapseThrees">
-                                        WINNER
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapseThrees" class="collapse" aria-labelledby="headingThrees" data-parent="#accordion" style="">
-                                <div class="card-body">
-                                    1 Year Management | Endorsement Deal | Branding | Tour | Marketing | Sponsorship
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.6s; animation-name: fadeInUp;">
-                            <div class="card-header" id="headingThree4s">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree4s" aria-expanded="false" aria-controls="collapseThree4s">
-                                        THREE FINALISTS
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapseThree4s" class="collapse" aria-labelledby="headingThree4s" data-parent="#accordion" style="">
-                                <div class="card-body">
-                                    Cinematic Movie Role
-                                    10 -15yrs
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.6s; animation-name: fadeInUp;">
-                            <div class="card-header" id="headingThree45s">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree45s" aria-expanded="false" aria-controls="collapseThree4">
-                                        WINNER
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapseThree45s" class="collapse" aria-labelledby="headingThree45s" data-parent="#accordion" style="">
-                                <div class="card-body">
-                                    1 Year Management | Endorsement Deal | Branding | Tour | Marketing | Sponsorship
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.6s; animation-name: fadeInUp;">
-                            <div class="card-header" id="headingThree44">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree44s" aria-expanded="false" aria-controls="collapseThree4">
-                                        THREE FINALISTS
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapseThree44s" class="collapse" aria-labelledby="headingThree44s" data-parent="#accordion" style="">
-                                <div class="card-body">
-                                    Cinematic Movie Role 22 - 28yrs
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.6s; animation-name: fadeInUp;">
-                            <div class="card-header" id="headingThree44">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree44ss" aria-expanded="false" aria-controls="collapseThree4">
-                                        WINNER
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapseThree44ss" class="collapse" aria-labelledby="headingThree44ss" data-parent="#accordion" style="">
-                                <div class="card-body">
-                                    1 Year Management | Endorsement Deal | Branding | Tour | Marketing | Sponsorship
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.6s; animation-name: fadeInUp;">
-                            <div class="card-header" id="headingThree44">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree44ssx" aria-expanded="false" aria-controls="collapseThree4">
-                                        THREE FINALISTS
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapseThree44ssx" class="collapse" aria-labelledby="headingThree44ssx" data-parent="#accordion" style="">
-                                <div class="card-body">
-                                    Cinematic Movie Role
-                                </div>
-                            </div>
-                        </div>
-                        <div class="card wow fadeInUp" data-wow-duration="1.4s" data-wow-delay=".6s" style="visibility: visible; animation-duration: 1.4s; animation-delay: 0.6s; animation-name: fadeInUp;">
-                            <div class="card-header" id="headingThree44">
-                                <h5 class="mb-0">
-                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree44ssxs" aria-expanded="false" aria-controls="collapseThree4">
-                                        4 WINNERS
-                                    </button>
-                                </h5>
-                            </div>
-                            <div id="collapseThree44ssxs" class="collapse" aria-labelledby="headingThree44ssxs" data-parent="#accordion" style="">
-                                <div class="card-body">
-                                    4 WINNERS | 12 FINALISTS | MILLIONS CASH PRIZE AND BENEFIT
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--/ accordion_area_end  -->
             </div>
         </div>
     </div>

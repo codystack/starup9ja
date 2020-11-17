@@ -13,13 +13,13 @@
 }
 body {
 	font-family: "Poppins-Regular";
-	color: #333;
+	color: #33D4D6;
 	font-size: 13px;
 	margin: 0;
 }
 input, textarea, select, button {
 	font-family: "Poppins-Regular";
-	color: #333;
+	color: #33D4D6;
 	font-size: 13px;
 }
 p, h1, h2, h3, h4, h5, h6, ul {
@@ -86,7 +86,7 @@ a:hover {
 	}
 }
 .form-control {
-	border: 1px solid #333;
+	border: 1px solid #33D4D6;
 	border-top: none;
 	border-right: none;
 	border-left: none;
@@ -97,22 +97,22 @@ a:hover {
 	margin-bottom: 25px;
 	&::-webkit-input-placeholder { 
 		font-size: 13px;
-		color: #333;
+		color: #33D4D6;
 		font-family: "Poppins-Regular";
 	}
 	&::-moz-placeholder { 
 		font-size: 13px;
-		color: #333;
+		color: #33D4D6;
 		font-family: "Poppins-Regular";
 	}
 	&:-ms-input-placeholder { 
 		font-size: 13px;
-		color: #333;
+		color: #33D4D6;
 		font-family: "Poppins-Regular";
 	}
 	&:-moz-placeholder { 
 		font-size: 13px;
-		color: #333;
+		color: #33D4D6;
 		font-family: "Poppins-Regular";
 	}
 }
@@ -136,7 +136,7 @@ button {
 	align-items: center;
 	justify-content: center;
 	padding: 0;
-	background: #333;
+	background: #33D4D6;
 	font-size: 15px;
 	color: #fff;
 	vertical-align: middle;

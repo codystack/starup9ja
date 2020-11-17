@@ -199,7 +199,7 @@ if (isset($_POST['register'])) {
 		<div class="wrapper" style="background-image: url('images/bg-registration-form-1.jpg');">
 			<div class="inner">
 				<div class="image-holder">
-					<img src="images/registration-form-1.jpg" alt="">
+					<a href="\"><img src="images/registration-form-1.jpg" alt=""></a>
 				</div>
 				<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="POST" enctype="multipart/form-data">
 					<h3>STARUP 9JA EMERGENCE CHALLENGE</h3>
@@ -265,7 +265,7 @@ if (isset($_POST['register'])) {
 					</div>
 					<div class="form-group">
 						<input type="text" name="address" required placeholder="Address" class="form-control">
-						<input type="text" name="date_of_birth" required placeholder="DOB (dd/mm/yyyy)" class="form-control">
+						<input type="date" name="date_of_birth" required placeholder="DOB (dd/mm/yyyy)" class="form-control">
 					</div>
 					<div class="form-wrapper">
 						<select name="age_category" required id="" class="form-control">
