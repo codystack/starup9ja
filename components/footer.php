@@ -99,6 +99,20 @@ Copyright &copy; <script>document.write(new Date().getFullYear());</script> Star
     </footer>
     <!--/ footer end  -->
 
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5fc356c2a1d54c18d8ee7b80/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+
     <!-- link that opens popup -->
     <!-- JS here -->
     <script src="js/vendor/modernizr-3.5.0.min.js"></script>
