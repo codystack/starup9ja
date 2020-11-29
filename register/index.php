@@ -147,7 +147,7 @@ if (isset($_POST['register'])) {
 												<tr>
 													<td class='pd-3x pdt-2x pdb-3x'>
 														<p>If you did not make this request, please contact us or ignore this message.</p>
-														<p class='email-note'>This is an automatically generated email please do not reply to this email. If you face any issues, please contact us at hello@starupnaija.com</p>
+														<p class='email-note'>This is an automatically generated email please do not reply to this email. If you face any issues, please contact us at hello@starup9ja.com</p>
 													</td>
 												</tr>
 											</tbody>

@@ -5,7 +5,7 @@
                 <div class="col-lg-6 col-md-6">
                     <div class="about_img wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">
                         <a href="about">
-                        <img src="img/about/about.png" alt="">
+                        <img src="img/about/about.jpg" alt="">
                         </a>
                     </div>
                 </div>

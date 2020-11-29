@@ -90,7 +90,7 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <p class="copy_right text-center">
-Copyright &copy; <script>document.write(new Date().getFullYear());</script> StarUp 9ja | RC 3116531 | All Rights Reserved<br>Built by <a href="https://www.webify.com.ng/" target="_blank">WebifyNG</a>
+Copyright &copy; <script>document.write(new Date().getFullYear());</script> StarUp 9ja | RC 3116531 | All Rights Reserved<br>Built by <a href="https://www.thankgodokoro.codes/" target="_blank">TeeGee</a>
                         </p>
                     </div>
                 </div>

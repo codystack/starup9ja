@@ -67,7 +67,7 @@ if (isset($_POST['message'])) {
 					<button type="submit" name="message">Send Message
 						<i class="zmdi zmdi-arrow-right"></i>
 					</button>
-                    <p style="text-align: center; padding-top: 20px">You can also call<br> <a href="tel:+234 7082486557" style="text-decoration: none; font-size: large; color: #0a183d">+234 7082486557</a> <br>or mail  <a href="mailto:info@starup9ja.com" style="text-decoration: none; font-size: large; color: #0a183d">info@starup9ja.com</a> </p>
+                    <p style="text-align: center; padding-top: 20px">You can also call<br> <a href="tel:+234 7082486557" style="text-decoration: none; font-size: large; color: #0a183d">+234 7082486557</a> <br>or mail  <a href="mailto:info@starup9ja.com" style="text-decoration: none; font-size: large; color: #0a183d">info@starup9ja.com</a> <br><a href="https://wa.me/message/FGDAWAPQVTVQK1" style="text-decoration: none; font-size: large; color: #0a183d">Click here for WhatsApp</a></p>
 				</form>
 
 			</div>
