@@ -63,7 +63,7 @@
                                             </li>
                                             -->
                                             <li><a href="faq">FAQ's</a></li>
-                                            <li<a href="https://blog.starup9ja.com/" target="_blank"></a></li>
+                                            <li<a href="https://blog.starup9ja.com/" target="_blank"></a>Blog</li>
                                             <li><a href="contact">Contact us</a></li>
                                         </ul>
                                     </nav>
