@@ -122,7 +122,7 @@ if (isset($_POST['register'])) {
 												<tr>
 													<td class='text-center pdb-2-5x'>
 														<center>
-														<a href='https://starupnaija.com' target='_blank'><img class='email-logo' src='https://i.imgur.com/9rYGpBt.png' style=\"height: 200px;\"/></a>
+														<a href='https://starup9ja.com' target='_blank'><img class='email-logo' src='https://i.imgur.com/9rYGpBt.png' style=\"height: 200px;\"/></a>
 														</center>
 													</td>
 												</tr>
@@ -139,7 +139,7 @@ if (isset($_POST['register'])) {
 														<p class='mgb-1x'>Hi $first_name,</p>
 														<p class='mgb-1x'>
 															Welcome! <br />
-															You are receiving this email because you have registered on Starup Naija.
+															You are receiving this email because you have registered on Starup 9ja.
 														</p>
 														<p class='mgb-1x'>You will contacted if you are qualified.</p>
 													</td>
@@ -172,7 +172,7 @@ if (isset($_POST['register'])) {
 						$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
   
 						// More headers
-						$headers .= 'From: Starup Naija™ <donotreply@starupnaija.com>' . "\r\n";
+						$headers .= 'From: Starup 9ja™ <donotreply@starup9ja.com>' . "\r\n";
   
 						mail($to,$subject,$message,$headers);
 				}
