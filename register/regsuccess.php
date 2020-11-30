@@ -22,7 +22,7 @@
                     <center>
                         <p>
 						Please check your mail or spam mail for confirmation mail.<br>
-                        For further enquiries send an email to <a href="mailto: info@starupnaija.com">info@starupnaija.com</a> <em><strong>NOTE:</strong></em> Registering more than once leads to automatic disqualification.
+                        For further enquiries send an email to <a href="mailto: info@starup9ja.com">info@starup9ja.com</a> <em><strong>NOTE:</strong></em> Registering more than once leads to automatic disqualification.
                         </p>
                     </center>
                     <button>Go Back
