@@ -1,3 +1,7 @@
+<meta
+ http-equiv="refresh"
+ content="0; URL='../comingsoon'"
+/>
 <?php 
 session_start();
 include('../controllers/dbconnect.php');
@@ -139,7 +143,7 @@ if (isset($_POST['register'])) {
 														<p class='mgb-1x'>Hi $first_name,</p>
 														<p class='mgb-1x'>
 															Welcome! <br />
-															You are receiving this email because you have registered on Starup 9ja.
+															You are receiving this email because you have registered on StarUp 9ja.
 														</p>
 														<p class='mgb-1x'>You will contacted if you are qualified.</p>
 													</td>

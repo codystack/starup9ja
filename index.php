@@ -14,9 +14,6 @@
                         </div>
                     </div>
                     <div class="col-lg-5 col-md-6">
-                    <div class="embed-responsive embed-responsive-16by9 vidclass">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/aXD-6XvP7yk" allowfullscreen></iframe>
-                    </div>
                     </div>
                 </div>
             </div>
