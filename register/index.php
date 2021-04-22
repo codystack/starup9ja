@@ -1,6 +1,6 @@
 <meta
  http-equiv="refresh"
- content="0; URL='../comingsoon'"
+ content="0; URL='../coming'"
 />
 <?php 
 session_start();
