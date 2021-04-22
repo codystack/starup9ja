@@ -187,6 +187,7 @@ if (isset($_POST['register'])) {
     }
   }
 ?>
+<!--
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -274,10 +275,10 @@ if (isset($_POST['register'])) {
 					<div class="form-wrapper">
 						<select name="age_category" required id="" class="form-control">
 							<option value="" disabled selected>Age Category</option>
-							<option value="4-9yrs">4-9yrs <!--₦1,000--></option>
-							<option value="10-15yrs">10-15yrs <!--₦2,000--></option>
-							<option value="16-21yrs">16-21yrs <!--₦3,000--></option>
-							<option value="22-28yrs">22-28yrs <!--₦5,000--></option>
+							<option value="4-9yrs">4-9yrs </option>
+							<option value="10-15yrs">10-15yrs </option>
+							<option value="16-21yrs">16-21yrs </option>
+							<option value="22-28yrs">22-28yrs </option>
 						</select>
 						<i class="zmdi zmdi-caret-down" style="font-size: 17px"></i>
 					</div>
