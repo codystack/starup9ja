@@ -18,12 +18,12 @@
                 </div>
                 <form action="\">
                     <img src="https://i.imgur.com/tPKodUd.png" style="height: 300px;" class="imgsuc">
-                    <h3>User already exist!</h3>
-                    <center>
+                    <h3 style="padding-top: 20px;">Registration Closed!</h3>
+                    <!--<center>
                         <p>
                         <em><strong>NOTE:</strong></em> Registering more than once leads to automatic disqualification.
                         </p>
-                    </center>
+                    </center>-->
                     <button>Go Back
 						<i class="zmdi zmdi-arrow-left"></i>
                     </button>

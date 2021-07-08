@@ -1,3 +1,4 @@
+<meta http-equiv="Refresh" content="0; url='regnotsuccess'" />
 <?php 
 session_start();
 include('../controllers/dbconnect.php');
